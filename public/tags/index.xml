@@ -39,11 +39,20 @@
     </item>
     
     <item>
-      <title>Stuff</title>
-      <link>/tags/stuff/</link>
+      <title>Ionic</title>
+      <link>/tags/ionic/</link>
       <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>
       
-      <guid>/tags/stuff/</guid>
+      <guid>/tags/ionic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photos</title>
+      <link>/tags/photos/</link>
+      <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
+      
+      <guid>/tags/photos/</guid>
       <description></description>
     </item>
     

@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>ACIMS App</title>
+      <link>/blog/acims-app/</link>
+      <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>
+      
+      <guid>/blog/acims-app/</guid>
+      <description>I started working on a write up of the ACIMS app that I made as a project. The intent of the writeup is both so that I can document what I did properly, but also so that I can hopefully share with others the process I went through. Though this is mostly to help me improve my understanding of what I have worked on, as having not re-visited it in awhile its very easy to forget.</description>
+    </item>
+    
+    <item>
       <title>New Blog</title>
       <link>/blog/first-post/</link>
       <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>

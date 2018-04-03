@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alberta Plant Species on CamMakoJ</title>
+    <link>//localhost:1313/tags/alberta-plant-species/</link>
+    <description>Recent content in Alberta Plant Species on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Apr 2018 07:07:37 -0600</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/tags/alberta-plant-species/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ACIMS App</title>
+      <link>//localhost:1313/docs/acims-app/</link>
+      <pubDate>Tue, 03 Apr 2018 07:07:37 -0600</pubDate>
+      
+      <guid>//localhost:1313/docs/acims-app/</guid>
+      <description>About the app The ACIMS app was developed after experiencing the frustration of forgetting the ACIMS list at home and trying to download the spreadsheet onto my phone. Spreadsheets in general aren&amp;rsquo;t awesome experiences on mobile and can be quite cumbersome. This was definitely the case with the massive ACIMS list and so I wanted to make it better. I also have always been interested in learning to code for a long time but hadn&amp;rsquo;t had the motivation to seriously learn.</description>
+    </item>
+    
+  </channel>
+</rss>

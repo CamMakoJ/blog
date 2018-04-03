@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ionic on CamMakoJ</title>
+    <link>/tags/ionic/</link>
+    <description>Recent content in Ionic on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Apr 2018 23:07:49 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/ionic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ACIMS App</title>
+      <link>/blog/2018/april/acims-app/</link>
+      <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>
+      
+      <guid>/blog/2018/april/acims-app/</guid>
+      <description>I started working on a write up of the ACIMS app that I made as a project. The intent of the writeup is both so that I can document what I did properly, but also so that I can hopefully share with others the process I went through. Though this is mostly to help me improve my understanding of what I have worked on, as having not re-visited it in awhile its very easy to forget.</description>
+    </item>
+    
+  </channel>
+</rss>

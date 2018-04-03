@@ -13,30 +13,31 @@
     
     <item>
       <title>My Favourite Photos</title>
-      <link>/blog/my-favourites/</link>
+      <link>/blog/2018/april/my-favourite/</link>
       <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
       
-      <guid>/blog/my-favourites/</guid>
-      <description>`</description>
+      <guid>/blog/2018/april/my-favourite/</guid>
+      <description>Ralph pose
+`</description>
     </item>
     
     <item>
       <title>Old Shots</title>
-      <link>/blog/old-shots/</link>
+      <link>/blog/2018/april/old-shots/</link>
       <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
       
-      <guid>/blog/old-shots/</guid>
+      <guid>/blog/2018/april/old-shots/</guid>
       <description>1st
-      10th
-      11th
-      12th
-      13th
-      14th
-      15th
-      16th
-      17th
-      18th
-      19th</description>
+10th
+11th
+12th
+13th
+16th
+19th
+21st
+22nd
+23rd
+24th</description>
     </item>
     
   </channel>

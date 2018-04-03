@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photography on CamMakoJ</title>
+    <link>//localhost:1313/categories/photography/</link>
+    <description>Recent content in Photography on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Apr 2018 19:56:14 -0600</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/categories/photography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Favourite Photos</title>
+      <link>//localhost:1313/blog/2018/april/my-favourite/</link>
+      <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
+      
+      <guid>//localhost:1313/blog/2018/april/my-favourite/</guid>
+      <description>Ralph pose
+`</description>
+    </item>
+    
+    <item>
+      <title>Old Shots</title>
+      <link>//localhost:1313/blog/2018/april/old-shots/</link>
+      <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
+      
+      <guid>//localhost:1313/blog/2018/april/old-shots/</guid>
+      <description>1st
+10th
+11th
+12th
+13th
+16th
+19th
+21st
+22nd
+23rd
+24th</description>
+    </item>
+    
+  </channel>
+</rss>
