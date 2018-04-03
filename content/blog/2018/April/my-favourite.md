@@ -8,4 +8,4 @@ tags = ["photos"]
 categories = ["photography"]
 +++
 
-{{< gallery dir="/img/photography/my-favourite" />}}`
+{{< gallery dir="./img/photography/my-favourite" />}}`
