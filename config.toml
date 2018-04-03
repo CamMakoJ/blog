@@ -10,6 +10,7 @@ Paginate = 10
   github = "CamMakoJ" # add your github profile name
   twitter = "@CamMakoJ" # add your twitter profile
   email = "Cam@MakoJ.com"
+  description = "My way of sharing... and remembering the stuff that I do"
 
   [taxonomies]
     tag = "tags"
