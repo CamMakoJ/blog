@@ -56,18 +56,14 @@
   <footer>{{ block "footer" . }}{{ end }}</footer>
 
 
-
-  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js"></script>
   <!-- Leave these out till i need them
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-database.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-firestore.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-messaging.js"></script>
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-functions.js"></script>
- -->
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-storage.js"></script>
-
-
 <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
 <script>
   // Initialize Firebase
@@ -81,7 +77,7 @@
   };
   firebase.initializeApp(config);
 </script>
-
+-->
   <script src="{{ "/js/kube.js" | relURL }}" type="text/javascript">
   </script>
   <script src="{{ "/js/kube.legenda.js" | relURL }}" type="text/javascript">
@@ -91,7 +87,9 @@
 
   <!-- Load PhotoSwipe js if the load-photoswipe shortcode has been used -->
   {{ if ($.Scratch.Get "photoswipeloaded") }}
+  <!--
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+-->
   <script src="/js/load-photoswipe.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>

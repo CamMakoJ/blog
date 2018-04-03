@@ -8,4 +8,5 @@ tags = ["photos"]
 categories = ["photography"]
 +++
 
+{{< load-photoswipe >}}
 {{< gallery dir="./img/photography/my-favourite" />}}`
