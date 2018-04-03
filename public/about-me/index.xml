@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About-mes on CamMakoJ</title>
+    <link>/about-me/</link>
+    <description>Recent content in About-mes on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Apr 2018 20:00:06 -0600</lastBuildDate>
+    
+	<atom:link href="/about-me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/about-me/aboutme/</link>
+      <pubDate>Mon, 02 Apr 2018 20:00:06 -0600</pubDate>
+      
+      <guid>/about-me/aboutme/</guid>
+      <description>My name is Cam i like stuff - this is my website so that i can keep track of the many things that i do in the average day. Cheers</description>
+    </item>
+    
+  </channel>
+</rss>

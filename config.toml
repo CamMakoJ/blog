@@ -1,0 +1,31 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "CamMakoJ"
+theme = "kube"
+description = "My way of sharing... and remembering the stuff that i do"
+Paginate = 10
+[Params]
+  RSSLink = "/index.xml"
+  author = "CamMakoJ" # add your company name
+  github = "CamMakoJ" # add your github profile name
+  twitter = "@CamMakoJ" # add your twitter profile
+  email = "Cam@MakoJ.com"
+
+  [taxonomies]
+    tag = "tags"
+    category = "categories"
+
+[[menu.main]]
+    name = "Docs"
+    weight = -100
+    url = "/docs/"
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
+
+# Don't need FAQ right now....
+# [[menu.main]]
+#    name = "Faq"
+#    weight = -100
+#    url = "/faq/"

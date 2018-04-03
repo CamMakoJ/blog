@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CamMakoJ</title>
+    <link>/</link>
+    <description>Recent content on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Mar 2018 10:42:47 -0600</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Credits</title>
+      <link>/docs/credits/</link>
+      <pubDate>Wed, 28 Mar 2018 10:42:47 -0600</pubDate>
+      
+      <guid>/docs/credits/</guid>
+      <description>Thanks for the usage of the following in the development of this site: Icons:  Earth by Juan Pablo Bravo from the Noun Project (https://thenounproject.com/bravo/collection/small-simple/)  
+Site Theme: Kube licensed under MIT.</description>
+    </item>
+    
+    <item>
+      <title>New Blog</title>
+      <link>/blog/first-post/</link>
+      <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>
+      
+      <guid>/blog/first-post/</guid>
+      <description>I have long wanted to blog more consistently but always got bogged down in what service to use, and how to use it&amp;hellip; or whether I should wait until I could build one myself. Fortunately I came to my senses and no longer think building it from scratch myself makes sense, so I went with a happy medium and am using Hugo and firebase for my needs. Hopefully this helps me learn a bit of website management as well as some more &amp;lsquo;coding&amp;rsquo; skills in my quest for a better understanding of the web.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/about-me/aboutme/</link>
+      <pubDate>Mon, 02 Apr 2018 20:00:06 -0600</pubDate>
+      
+      <guid>/about-me/aboutme/</guid>
+      <description>My name is Cam i like stuff - this is my website so that i can keep track of the many things that i do in the average day. Cheers</description>
+    </item>
+    
+    <item>
+      <title>My Favourite Photos</title>
+      <link>/photography/my-favourites/</link>
+      <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
+      
+      <guid>/photography/my-favourites/</guid>
+      <description>`</description>
+    </item>
+    
+    <item>
+      <title>Old Shots</title>
+      <link>/photography/old-shots/</link>
+      <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
+      
+      <guid>/photography/old-shots/</guid>
+      <description>1st
+      10th
+      11th
+      12th
+      13th
+      14th
+      15th
+      16th
+      17th
+      18th
+      19th</description>
+    </item>
+    
+  </channel>
+</rss>

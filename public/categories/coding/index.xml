@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on CamMakoJ</title>
+    <link>/categories/coding/</link>
+    <description>Recent content in Coding on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Apr 2018 23:07:49 -0600</lastBuildDate>
+    
+	<atom:link href="/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Blog</title>
+      <link>/blog/first-post/</link>
+      <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>
+      
+      <guid>/blog/first-post/</guid>
+      <description>I have long wanted to blog more consistently but always got bogged down in what service to use, and how to use it&amp;hellip; or whether I should wait until I could build one myself. Fortunately I came to my senses and no longer think building it from scratch myself makes sense, so I went with a happy medium and am using Hugo and firebase for my needs. Hopefully this helps me learn a bit of website management as well as some more &amp;lsquo;coding&amp;rsquo; skills in my quest for a better understanding of the web.</description>
+    </item>
+    
+  </channel>
+</rss>
