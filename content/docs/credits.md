@@ -12,7 +12,7 @@ tags = []
 <h6>Thanks for the usage of the following in the development of this site:</h6>
 <h4>Icons:</h4>
   <ul>
-  <li>Earth by Juan Pablo Bravo from the Noun Project (https://thenounproject.com/bravo/collection/small-simple/) </li>
+  <li>Multiple icons by Juan Pablo Bravo from the Noun Project (https://thenounproject.com/bravo/collection/small-simple/) </li>
   </ul>
 
   <h4>Site Theme:</h4>

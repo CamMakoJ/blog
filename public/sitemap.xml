@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/docs/acims-app/</loc>
+    <lastmod>2018-04-03T07:07:37-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/first-post/</loc>
     <lastmod>2018-04-02T23:07:49-06:00</lastmod>
   </url>
@@ -18,18 +23,36 @@
   </url>
   
   <url>
-    <loc>/photography/my-favourites/</loc>
+    <loc>/blog/my-favourites/</loc>
     <lastmod>2018-04-02T19:56:14-06:00</lastmod>
   </url>
   
   <url>
-    <loc>/photography/old-shots/</loc>
+    <loc>/blog/old-shots/</loc>
     <lastmod>2018-04-02T19:56:14-06:00</lastmod>
   </url>
   
   <url>
     <loc>/about-me/</loc>
     <lastmod>2018-04-02T20:00:06-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/acims/</loc>
+    <lastmod>2018-04-03T07:07:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/alberta-plant-species/</loc>
+    <lastmod>2018-04-03T07:07:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/app-development/</loc>
+    <lastmod>2018-04-03T07:07:37-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -75,12 +98,6 @@
   </url>
   
   <url>
-    <loc>/photography/</loc>
-    <lastmod>2018-04-02T19:56:14-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/photography/</loc>
     <lastmod>2018-04-02T19:56:14-06:00</lastmod>
     <priority>0</priority>
@@ -94,7 +111,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-04-02T23:07:49-06:00</lastmod>
+    <lastmod>2018-04-03T07:07:37-06:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -20,5 +20,33 @@
       <description>I have long wanted to blog more consistently but always got bogged down in what service to use, and how to use it&amp;hellip; or whether I should wait until I could build one myself. Fortunately I came to my senses and no longer think building it from scratch myself makes sense, so I went with a happy medium and am using Hugo and firebase for my needs. Hopefully this helps me learn a bit of website management as well as some more &amp;lsquo;coding&amp;rsquo; skills in my quest for a better understanding of the web.</description>
     </item>
     
+    <item>
+      <title>My Favourite Photos</title>
+      <link>/blog/my-favourites/</link>
+      <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
+      
+      <guid>/blog/my-favourites/</guid>
+      <description>`</description>
+    </item>
+    
+    <item>
+      <title>Old Shots</title>
+      <link>/blog/old-shots/</link>
+      <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
+      
+      <guid>/blog/old-shots/</guid>
+      <description>1st
+      10th
+      11th
+      12th
+      13th
+      14th
+      15th
+      16th
+      17th
+      18th
+      19th</description>
+    </item>
+    
   </channel>
 </rss>

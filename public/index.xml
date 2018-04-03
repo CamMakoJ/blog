@@ -17,8 +17,17 @@
       <pubDate>Wed, 28 Mar 2018 10:42:47 -0600</pubDate>
       
       <guid>/docs/credits/</guid>
-      <description>Thanks for the usage of the following in the development of this site: Icons:  Earth by Juan Pablo Bravo from the Noun Project (https://thenounproject.com/bravo/collection/small-simple/)  
+      <description>Thanks for the usage of the following in the development of this site: Icons:  Multiple icons by Juan Pablo Bravo from the Noun Project (https://thenounproject.com/bravo/collection/small-simple/)  
 Site Theme: Kube licensed under MIT.</description>
+    </item>
+    
+    <item>
+      <title>ACIMS App</title>
+      <link>/docs/acims-app/</link>
+      <pubDate>Tue, 03 Apr 2018 07:07:37 -0600</pubDate>
+      
+      <guid>/docs/acims-app/</guid>
+      <description>About the app The ACIMS app was developed after experiencing the frustration of forgetting the ACIMS list at home and trying to download the spreadsheet onto my phone. Spreadsheets in general aren&amp;rsquo;t awesome experiences on mobile and can be quite cumbersome. This was definitely the case with the massive ACIMS list and so I wanted to make it better. I also have always been interested in learning to code for a long time but hadn&amp;rsquo;t had the motivation to seriously learn.</description>
     </item>
     
     <item>
@@ -41,19 +50,19 @@ Site Theme: Kube licensed under MIT.</description>
     
     <item>
       <title>My Favourite Photos</title>
-      <link>/photography/my-favourites/</link>
+      <link>/blog/my-favourites/</link>
       <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
       
-      <guid>/photography/my-favourites/</guid>
+      <guid>/blog/my-favourites/</guid>
       <description>`</description>
     </item>
     
     <item>
       <title>Old Shots</title>
-      <link>/photography/old-shots/</link>
+      <link>/blog/old-shots/</link>
       <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
       
-      <guid>/photography/old-shots/</guid>
+      <guid>/blog/old-shots/</guid>
       <description>1st
       10th
       11th
