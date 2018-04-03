@@ -4,6 +4,7 @@ title = "CamMakoJ"
 theme = "kube"
 description = "My way of sharing... and remembering the stuff that i do"
 Paginate = 10
+disqusShortname = "makoj-com"
 [Params]
   RSSLink = "/index.xml"
   author = "CamMakoJ" # add your company name
