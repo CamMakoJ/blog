@@ -11,11 +11,29 @@
     
     
     <item>
-      <title>General</title>
-      <link>/categories/general/</link>
+      <title>Coding</title>
+      <link>/categories/coding/</link>
       <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>
       
-      <guid>/categories/general/</guid>
+      <guid>/categories/coding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Environment</title>
+      <link>/categories/environment/</link>
+      <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>
+      
+      <guid>/categories/environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geomatics</title>
+      <link>/categories/geomatics/</link>
+      <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>
+      
+      <guid>/categories/geomatics/</guid>
       <description></description>
     </item>
     
@@ -25,6 +43,15 @@
       <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
       
       <guid>/categories/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thoughts</title>
+      <link>/categories/thoughts/</link>
+      <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>
+      
+      <guid>/categories/thoughts/</guid>
       <description></description>
     </item>
     
