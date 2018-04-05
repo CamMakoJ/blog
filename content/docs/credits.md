@@ -2,7 +2,7 @@
 title = "Credits"
 description = "Any and all acknowlegements for making this site"
 date = 2018-03-28T10:42:47-06:00
-weight = 01
+weight = 20
 draft = false
 bref = "Cheers to all the great open source information out there"
 toc = false

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.37.1" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Environmental Map </title>
+
+  
+  <meta name="description" content="This is an environmental map that I plan on working "> 
+  
+  
+  
+  
+  
+
+  
+
+  <meta name="author" content="CamMakoJ">
+
+
+  <meta property="og:title" content="Environmental Map" />
+<meta property="og:description" content="This is an environmental map that I plan on working " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/environmental-map/" />
+
+
+
+<meta property="article:published_time" content="2018-04-04T09:34:47-06:00"/>
+
+<meta property="article:modified_time" content="2018-04-04T09:34:47-06:00"/>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+  
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-116964426-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  
+
+  <link rel="canonical" href="/docs/environmental-map/">  
+
+  <link rel="shortcut icon" type="image/png" href="/img/favicon/favicon.png">
+
+
+  <link href="/css/font.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.min.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.legenda.css" rel="stylesheet" type="text/css">
+  <link href="/css/highlight.css" rel="stylesheet" type="text/css">
+  <link href="/css/master.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.demo.css" rel="stylesheet" type="text/css">
+
+ <link href="/css/custom.css" rel="stylesheet" type="text/css">
+
+  <script src="/js/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+
+  <script type="text/javascript" src="/js/tocbot.min.js"></script>
+</head>
+
+
+<body class="page-kube">
+  <header> <div class="show-sm">
+    <div id="nav-toggle-box">
+      <div id="nav-toggle-brand">
+        <a href="/">CamMakoJ</a>
+      </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+    </div>
+  </div>
+  <div class="hide-sm" id="top">
+    <div id="top-brand">
+      <a href="/" title="home">CamMakoJ</a>
+    </div>
+    <nav id="top-nav-main">
+      <ul>
+       
+       
+    <li><a href="/blog/" >Blog</a></li>
+    
+    <li><a href="/docs/" >Docs</a></li>
+    
+      </ul>
+    </nav>
+    <nav id="top-nav-extra"> 
+      <ul>
+          
+      </ul>
+    </nav>
+  </div>
+ </header>
+  <main>
+  <div id="main">
+    <div id="hero">
+      <h1> Environmental Map </h1>
+      <p class="hero-lead">
+           A map filled with all the environmental data I can find.
+      </p>
+
+    </div> 
+    <div id="kube-component" class="content">
+    
+
+    
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+  crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+  integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+  crossorigin=""></script>
+
+  
+  <script src="https://unpkg.com/esri-leaflet@2.1.3/dist/esri-leaflet.js"
+  integrity="sha512-pijLQd2FbV/7+Jwa86Mk3ACxnasfIMzJRrIlVQsuPKPCfUBCDMDUoLiBQRg7dAQY6D1rkmCcR8286hVTn/wlIg=="
+  crossorigin=""></script>
+
+
+<div id="map" style="width:100%;height:600px;">
+<script>
+
+// Overlay layers
+var amwiLayer = L.tileLayer.wms('https://maps.alberta.ca/genesis/services/Alberta_Merged_Wetland_Inventory/Latest/MapServer/WMSServer?', {
+  layers: '12',
+  transparent: true,
+  format:  'image/png'
+});
+
+// overlay object
+var overlayMaps = {
+  "AMWI": amwiLayer
+};
+
+// Basemap layers
+var esriImagery = L.esri.basemapLayer("Imagery");
+var esriTopography = L.esri.basemapLayer("Topographic");
+// Basemap object
+var baseMaps = {
+  "Imagery": esriImagery,
+  "Topographic": esriTopography
+};
+
+//simple map
+var map = L.map('map', {
+  center: [51.25, -113.88],
+  zoom: 15,
+  layers: [esriImagery, amwiLayer]
+});
+//adding the layer controls
+L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+</script>
+</div>
+
+<p><em>Many layers will only work at certain zoom levels.</em></p>
+
+<h4 id="layer-list-and-sources">Layer List and Sources</h4>
+
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Source</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Alberta Merged Wetland Inventory</td>
+<td><a href="https://maps.alberta.ca/genesis/services/Alberta_Merged_Wetland_Inventory/Latest/MapServer/WMSServer">https://maps.alberta.ca/genesis/services/Alberta_Merged_Wetland_Inventory/Latest/MapServer/WMSServer</a></td>
+</tr>
+</tbody>
+</table>
+
+
+    
+    </div>
+    </div>
+</main>
+  <footer></footer>
+
+
+  
+  <script src="/js/kube.js" type="text/javascript">
+  </script>
+  <script src="/js/kube.legenda.js" type="text/javascript">
+  </script>
+  <script src="/js/master.js" type="text/javascript">
+  </script>
+
+  
+  
+
+</body>
+
+</html>

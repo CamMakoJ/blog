@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Geomatics</title>
+      <link>/tags/geomatics/</link>
+      <pubDate>Wed, 04 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/tags/geomatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ionic</title>
       <link>/tags/ionic/</link>
       <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>
@@ -48,11 +57,38 @@
     </item>
     
     <item>
+      <title>Leafletjs</title>
+      <link>/tags/leafletjs/</link>
+      <pubDate>Wed, 04 Apr 2018 11:03:51 -0600</pubDate>
+      
+      <guid>/tags/leafletjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Photos</title>
       <link>/tags/photos/</link>
       <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
       
       <guid>/tags/photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Maps</title>
+      <link>/tags/web-maps/</link>
+      <pubDate>Wed, 04 Apr 2018 11:03:51 -0600</pubDate>
+      
+      <guid>/tags/web-maps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wms</title>
+      <link>/tags/wms/</link>
+      <pubDate>Wed, 04 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/tags/wms/</guid>
       <description></description>
     </item>
     

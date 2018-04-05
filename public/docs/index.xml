@@ -6,19 +6,18 @@
     <description>Recent content in Docs on CamMakoJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Mar 2018 10:42:47 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 04 Apr 2018 09:34:47 -0600</lastBuildDate>
     
 	<atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Credits</title>
-      <link>/docs/credits/</link>
-      <pubDate>Wed, 28 Mar 2018 10:42:47 -0600</pubDate>
+      <title>Environmental Map</title>
+      <link>/docs/environmental-map/</link>
+      <pubDate>Wed, 04 Apr 2018 09:34:47 -0600</pubDate>
       
-      <guid>/docs/credits/</guid>
-      <description>Thanks for the usage of the following in the development of this site: Icons:  Multiple icons by Juan Pablo Bravo from the Noun Project (https://thenounproject.com/bravo/collection/small-simple/)  
-Site Theme: Kube licensed under MIT.</description>
+      <guid>/docs/environmental-map/</guid>
+      <description>// Overlay layers var amwiLayer = L.tileLayer.wms(&#39;https://maps.alberta.ca/genesis/services/Alberta_Merged_Wetland_Inventory/Latest/MapServer/WMSServer?&#39;, { layers: &#39;12&#39;, transparent: true, format: &#39;image/png&#39; }); // overlay object var overlayMaps = { &#34;AMWI&#34;: amwiLayer }; // Basemap layers var esriImagery = L.esri.basemapLayer(&#34;Imagery&#34;); var esriTopography = L.esri.basemapLayer(&#34;Topographic&#34;); // Basemap object var baseMaps = { &#34;Imagery&#34;: esriImagery, &#34;Topographic&#34;: esriTopography }; //simple map var map = L.map(&#39;map&#39;, { center: [51.25, -113.88], zoom: 15, layers: [esriImagery, amwiLayer] }); //adding the layer controls L.</description>
     </item>
     
     <item>
@@ -28,6 +27,16 @@ Site Theme: Kube licensed under MIT.</description>
       
       <guid>/docs/acims-app/</guid>
       <description>About the app The ACIMS app was developed after experiencing the frustration of forgetting the ACIMS list at home and trying to download the spreadsheet onto my phone. Spreadsheets in general aren&amp;rsquo;t awesome experiences on mobile and can be quite cumbersome. This was definitely the case with the massive ACIMS list and so I wanted to make it better. I also have always been interested in learning to code for a long time but hadn&amp;rsquo;t had the motivation to seriously learn.</description>
+    </item>
+    
+    <item>
+      <title>Credits</title>
+      <link>/docs/credits/</link>
+      <pubDate>Wed, 28 Mar 2018 10:42:47 -0600</pubDate>
+      
+      <guid>/docs/credits/</guid>
+      <description>Thanks for the usage of the following in the development of this site: Icons:  Multiple icons by Juan Pablo Bravo from the Noun Project (https://thenounproject.com/bravo/collection/small-simple/)  
+Site Theme: Kube licensed under MIT.</description>
     </item>
     
   </channel>

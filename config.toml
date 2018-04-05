@@ -5,6 +5,7 @@ theme = "kube"
 description = "My way of sharing... and remembering the stuff that i do"
 Paginate = 10
 disqusShortname = "makoj-com"
+googleAnalytics = "UA-116964426-1"
 [Params]
   RSSLink = "/index.xml"
   author = "CamMakoJ" # add your company name
@@ -14,7 +15,13 @@ disqusShortname = "makoj-com"
   email = "Cam@MakoJ.com"
   description = "My way of sharing... and remembering the stuff that I do"
 
-  [taxonomies]
+[Params.seo.webmaster_verifications]
+  google = "" # Optional, Google verification code
+  bing = "" # Optional, Bing verification code
+  alexa = "" # Optional, Alexa verification code
+  yandex = "" # Optional, Yandex verification code
+
+[taxonomies]
     tag = "tags"
     category = "categories"
 
