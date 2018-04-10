@@ -10,12 +10,13 @@ tags = ["Geomatics", "LeafletJS", "WMS"]
 +++
 
 {{< load-leaflet >}}
+{{< load-betterwms >}}
 
 <div id="map" style="width:100%;height:600px;">
 <script>
 
 // Overlay layers
-var amwiLayer = L.tileLayer.wms('https://maps.alberta.ca/genesis/services/Alberta_Merged_Wetland_Inventory/Latest/MapServer/WMSServer?', {
+var amwiLayer = L.tileLayer.betterWms('https://maps.alberta.ca/genesis/services/Alberta_Merged_Wetland_Inventory/Latest/MapServer/WMSServer?', {
   layers: '12',
   transparent: true,
   format:  'image/png'
