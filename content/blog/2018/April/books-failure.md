@@ -16,4 +16,4 @@ Anyway in reading the
 [The Talent Code](https://amzn.to/2HduWYK),
 [Creativity Inc.](https://amzn.to/2HduWYK), and
 [The 4-Hour Workweek](https://amzn.to/2HduWYK)
-I have seen a trend, that isn't novel, but I see new value in the importance of failure for both learning and growth. I have spent most of my life trying to succeed and in general appear successful. This has typically meant working towards not failing, being the opposite of the success I was looking for.
+I saw a trend in the importance of failure for both learning and growth. I have spent most of my life trying to succeed and in general appear successful. This has typically meant working towards not failing, with the mindset that it was the opposite of the success I was looking for.
