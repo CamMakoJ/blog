@@ -5,7 +5,7 @@ weight = 20
 draft = false
 date = 2018-04-06T09:26:19-06:00
 tags = ["Books", "4-Hour Workweek", "Creativity Inc", "The Talent Code", "Failure"]
-categories = ["Thoughts"]
+categories = ["Life"]
 +++
 
 I have been trying to read more lately, and by read its been mostly audiobooks. I recently discovered that I can use my local libraries online system to get both e-books and audiobooks on my phone for free which is awesome!
