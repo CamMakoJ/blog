@@ -4,7 +4,7 @@ description = "I have been reading some non-fiction later and it keeps pointing 
 weight = 20
 draft = false
 date = 2018-04-06T09:26:19-06:00
-tags = ["Books", "4-Hour Workweek", "Creativity Inc.", "The Talent Code", "Failure"]
+tags = ["Books", "4-Hour Workweek", "Creativity Inc", "The Talent Code", "Failure"]
 categories = ["Thoughts"]
 +++
 

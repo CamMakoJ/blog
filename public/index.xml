@@ -6,10 +6,29 @@
     <description>Recent content on CamMakoJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Apr 2018 11:03:51 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 06 Apr 2018 09:34:47 -0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My book list</title>
+      <link>/docs/book-list/</link>
+      <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/docs/book-list/</guid>
+      <description> Books I&amp;rsquo;m Reading    Book Author Date Started     The Talent Code Daniel Coyle April 2, 2018    Books I Plan to Read    Book Author     YNAB Jesse Mecham    Read Books    Book Author Date Read     Creativity Inc. Ed Catmull March 2, 2018   The 4-Hour Workweek Tim Ferris March 30, 2018    </description>
+    </item>
+    
+    <item>
+      <title>The Value of Failure</title>
+      <link>/blog/2018/april/books-failure/</link>
+      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
+      
+      <guid>/blog/2018/april/books-failure/</guid>
+      <description>I have been trying to read more lately, and by read its been mostly audiobooks. I recently discovered that I can use my local libraries online system to get both e-books and audiobooks on my phone for free which is awesome!
+Check out Libby it is an awesome front end for using your local library resources, and at least where I live its totally free. Definitely worth checking out if you like reading or listening to books.</description>
+    </item>
     
     <item>
       <title>LeafletJS Maps</title>
@@ -26,7 +45,7 @@
       <pubDate>Wed, 04 Apr 2018 09:34:47 -0600</pubDate>
       
       <guid>/docs/environmental-map/</guid>
-      <description>// Overlay layers var amwiLayer = L.tileLayer.wms(&#39;https://maps.alberta.ca/genesis/services/Alberta_Merged_Wetland_Inventory/Latest/MapServer/WMSServer?&#39;, { layers: &#39;12&#39;, transparent: true, format: &#39;image/png&#39; }); // overlay object var overlayMaps = { &#34;AMWI&#34;: amwiLayer }; // Basemap layers var esriImagery = L.esri.basemapLayer(&#34;Imagery&#34;); var esriTopography = L.esri.basemapLayer(&#34;Topographic&#34;); // Basemap object var baseMaps = { &#34;Imagery&#34;: esriImagery, &#34;Topographic&#34;: esriTopography }; //simple map var map = L.map(&#39;map&#39;, { center: [51.25, -113.88], zoom: 15, layers: [esriImagery, amwiLayer] }); //adding the layer controls L.</description>
+      <description>L.TileLayer.BetterWMS = L.TileLayer.WMS.extend({onAdd: function (map) {L.TileLayer.WMS.prototype.onAdd.call(this, map);map.on(&#39;click&#39;, this.getFeatureInfo, this);},onRemove: function (map) {L.TileLayer.WMS.prototype.onRemove.call(this, map);map.off(&#39;click&#39;, this.getFeatureInfo, this);},getFeatureInfo: function (evt) {var url = this.getFeatureInfoUrl(evt.latlng),showResults = L.Util.bind(this.showGetFeatureInfo, this);$.ajax({url: url,success: function (data, status, xhr) {var err = typeof data === &#39;string&#39; ? null : data;showResults(err, evt.latlng, data);},error: function (xhr, status, error) {showResults(error);}});},getFeatureInfoUrl: function (latlng) {var point = this.</description>
     </item>
     
     <item>
@@ -72,10 +91,10 @@
       
       <guid>/blog/2018/april/my-favourite/</guid>
       <description>2nd
-      3rd
-      5th
-      7th
-     `</description>
+3rd
+5th
+7th
+`</description>
     </item>
     
     <item>
@@ -85,12 +104,12 @@
       
       <guid>/blog/2018/april/old-shots/</guid>
       <description>1st
-      10th
-      11th
-      12th
-      13th
-      16th
-      19th</description>
+10th
+11th
+12th
+13th
+16th
+19th</description>
     </item>
     
     <item>
@@ -100,10 +119,10 @@
       
       <guid>/blog/2018/april/ralph/</guid>
       <description>1st
-      4th
-      6th
-      Ralph pose
-     `</description>
+4th
+6th
+Ralph pose
+`</description>
     </item>
     
     <item>

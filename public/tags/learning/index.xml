@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on CamMakoJ</title>
+    <link>/tags/learning/</link>
+    <description>Recent content in Learning on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Apr 2018 09:34:47 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My book list</title>
+      <link>/docs/book-list/</link>
+      <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/docs/book-list/</guid>
+      <description> Books I&amp;rsquo;m Reading    Book Author Date Started     The Talent Code Daniel Coyle April 2, 2018    Books I Plan to Read    Book Author     YNAB Jesse Mecham    Read Books    Book Author Date Read     Creativity Inc. Ed Catmull March 2, 2018   The 4-Hour Workweek Tim Ferris March 30, 2018    </description>
+    </item>
+    
+  </channel>
+</rss>
