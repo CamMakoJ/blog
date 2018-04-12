@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/2018/april/qgis-processor-modelling/</loc>
+    <lastmod>2018-04-12T17:03:46-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/book-list/</loc>
     <lastmod>2018-04-06T09:34:47-06:00</lastmod>
   </url>
@@ -94,7 +99,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-04-06T09:26:19-06:00</lastmod>
+    <lastmod>2018-04-12T17:03:46-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,7 +111,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-04-06T09:34:47-06:00</lastmod>
+    <lastmod>2018-04-12T17:03:46-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -118,6 +123,12 @@
   <url>
     <loc>/categories/coding/</loc>
     <lastmod>2018-04-04T11:03:51-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/constraints-mapping/</loc>
+    <lastmod>2018-04-12T17:03:46-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -135,7 +146,7 @@
   
   <url>
     <loc>/categories/environment/</loc>
-    <lastmod>2018-04-02T23:07:49-06:00</lastmod>
+    <lastmod>2018-04-12T17:03:46-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -153,7 +164,7 @@
   
   <url>
     <loc>/categories/geomatics/</loc>
-    <lastmod>2018-04-04T11:03:51-06:00</lastmod>
+    <lastmod>2018-04-12T17:03:46-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -177,7 +188,7 @@
   
   <url>
     <loc>/categories/life/</loc>
-    <lastmod>2018-04-02T23:07:49-06:00</lastmod>
+    <lastmod>2018-04-06T09:26:19-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -190,6 +201,18 @@
   <url>
     <loc>/tags/photos/</loc>
     <lastmod>2018-04-02T19:56:14-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/process-modelling/</loc>
+    <lastmod>2018-04-12T17:03:46-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/qgis/</loc>
+    <lastmod>2018-04-12T17:03:46-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -207,12 +230,6 @@
   
   <url>
     <loc>/tags/the-talent-code/</loc>
-    <lastmod>2018-04-06T09:26:19-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/thoughts/</loc>
     <lastmod>2018-04-06T09:26:19-06:00</lastmod>
     <priority>0</priority>
   </url>

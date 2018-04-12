@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on CamMakoJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Apr 2018 09:26:19 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 12 Apr 2018 17:03:46 -0600</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>QGIS Processor Modelling</title>
+      <link>/blog/2018/april/qgis-processor-modelling/</link>
+      <pubDate>Thu, 12 Apr 2018 17:03:46 -0600</pubDate>
+      
+      <guid>/blog/2018/april/qgis-processor-modelling/</guid>
+      <description>Constraints Mapping I had a project where I needed to look at constraints mapping for a series of project areas. Essentially I needed to look at a project and see what parts and how many layers it intersected with. The first thing I wanted to look at was how to go about automating as much as I could and since my python skills are still very green I looked into using the new to me QGIS process modeler.</description>
+    </item>
     
     <item>
       <title>The Value of Failure</title>
