@@ -6,10 +6,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> QGIS Processor Modelling </title>
+  <title> Creating a DEM from Contours </title>
 
   
-  <meta name="description" content="Using the QGIS process modeller to make up for my lack of python skills"> 
+  <meta name="description" content="I somehow always forget how to do this and have to rebuild the wheel, now I wont forget... or can at least I can find the wheel"> 
   
   
   
@@ -21,16 +21,16 @@
   <meta name="author" content="CamMakoJ">
 
 
-  <meta property="og:title" content="QGIS Processor Modelling" />
-<meta property="og:description" content="Using the QGIS process modeller to make up for my lack of python skills" />
+  <meta property="og:title" content="Creating a DEM from Contours" />
+<meta property="og:description" content="I somehow always forget how to do this and have to rebuild the wheel, now I wont forget... or can at least I can find the wheel" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/blog/2018/april/qgis-processor-modelling/" />
+<meta property="og:url" content="/blog/2018/april/contours-dem/" />
 
 
 
-<meta property="article:published_time" content="2018-04-12T17:03:46-06:00"/>
+<meta property="article:published_time" content="2018-04-13T15:02:33-06:00"/>
 
-<meta property="article:modified_time" content="2018-04-12T17:03:46-06:00"/>
+<meta property="article:modified_time" content="2018-04-13T15:02:33-06:00"/>
 
 
 
@@ -60,7 +60,7 @@ ga('send', 'pageview');
 
   
 
-  <link rel="canonical" href="/blog/2018/april/qgis-processor-modelling/">  
+  <link rel="canonical" href="/blog/2018/april/contours-dem/">  
 
   <link rel="shortcut icon" type="image/png" href="/img/favicon/favicon.png">
 
@@ -113,22 +113,22 @@ ga('send', 'pageview');
   <main>
 <div class="push-center" itemscope itemtype="http://schema.org/BlogPosting">
     
-<meta itemprop="name" content="QGIS Processor Modelling">
-<meta itemprop="description" content="Using the QGIS process modeller to make up for my lack of python skills">
+<meta itemprop="name" content="Creating a DEM from Contours">
+<meta itemprop="description" content="I somehow always forget how to do this and have to rebuild the wheel, now I wont forget... or can at least I can find the wheel">
 
 
-<meta itemprop="datePublished" content="2018-04-12T17:03:46-06:00" />
-<meta itemprop="dateModified" content="2018-04-12T17:03:46-06:00" />
-<meta itemprop="wordCount" content="237">
+<meta itemprop="datePublished" content="2018-04-13T15:02:33-06:00" />
+<meta itemprop="dateModified" content="2018-04-13T15:02:33-06:00" />
+<meta itemprop="wordCount" content="335">
 
 
 
-<meta itemprop="keywords" content="QGIS,Process Modelling,Constraints Mapping," />
+<meta itemprop="keywords" content="QGIS,GrassGIS,Contours,DEM," />
 
 <div id="hero">
-    <h1 itemprop="headline">  QGIS Processor Modelling</h1>
+    <h1 itemprop="headline">  Creating a DEM from Contours</h1>
     
-<blockquote itemprop="description">Using the QGIS process modeller to make up for my lack of python skills</blockquote>
+<blockquote itemprop="description">I somehow always forget how to do this and have to rebuild the wheel, now I wont forget... or can at least I can find the wheel</blockquote>
 
 <time class="post-time"><span class="icon">
   <i class="fa fa-clock-o" aria-hidden="true"></i>
@@ -138,7 +138,7 @@ ga('send', 'pageview');
  <i class="fa fa-pencil" aria-hidden="true"></i>
 </span>
 
-  Published: <time datetime="2018-04-12T17:03:46-06:00">12 Apr, 2018</time>
+  Published: <time datetime="2018-04-13T15:02:33-06:00">13 Apr, 2018</time>
 
 </time>
 </div>
@@ -147,17 +147,32 @@ ga('send', 'pageview');
 
     
 
-<h3 id="constraints-mapping">Constraints Mapping</h3>
+<h4 id="contours">Contours</h4>
 
-<p>I had a project where I needed to look at constraints mapping for a series of project areas. Essentially I needed to look at a project and see what parts and how many layers it intersected with. The first thing I wanted to look at was how to go about automating as much as I could and since my python skills are still very green I looked into using the new to me QGIS process modeler.</p>
+<p>Contours are a great way to visualize topography on a flat map without covering background imagery. It is often great for figures where you want a visible basemap.</p>
 
-<h3 id="processing-modeler">Processing Modeler</h3>
+<p><img src="/img/posts/contours-dem/contours.jpg" alt="Contours" /></p>
 
-<p>The process modeler is a rad tool as you can work out a process visually and not need to worry about the &lsquo;raw&rsquo; coding. It does have its limitations, but it does open up a whole world of scripting with a pretty small investment to understand it. Here is a quick example I created so I could merge and clip a variety of shapefiles at once.</p>
+<h4 id="digital-elevation-model">Digital Elevation Model</h4>
 
-<p><img src="/img/posts/qgis-process-modeler/process-modeler.JPG" alt="QGIS Processor Modeler" /></p>
+<p>That being said it is nice to have a digital elevation model (DEM) for easier interpretation of what the ground is looking like. I find this easier to see where there are steep slopes and depressions that may be wetlands.</p>
 
-<p>You can see that I take three types of inputs (points, lines, and polygons) and then process them through a &ldquo;merge&rdquo; followed by a &ldquo;clip&rdquo; and then three outputs. This was something that I normally would have done by hand, creating a lot of temporary shapefiles in the process. This way I just end up with the outputs that I want, and while it may take longer to process, its all in one step. Hopefully I will find new ways to use this and have some cooler examples in the future.</p>
+<p><img src="/img/posts/contours-dem/dem.jpg" alt="Contours" /></p>
+
+<h4 id="dem-contours">DEM &ndash;&gt; Contours</h4>
+
+<p>Generally this is a fairly simple task and most GIS suites can handle it quite simply with a dedicated contour extraction tool. From an elevation raster to vector lines. This is usually simpler as you are decreasing the resolution of the data in a sense and removing all the &ldquo;in-between&rdquo; and are just left with the contour break lines.</p>
+
+<h4 id="contours-dem">Contours &ndash;&gt; DEM</h4>
+
+<p>This is often where I get hung up in processing as its much less intuitive. It makes sense that it would be trickier as you are trying to re-interpret the raw data and fill in all the gaps, where you are starting with break lines shown in the contours.</p>
+
+<ul>
+<li>Step 1 - Rasterize the contour lines using Grass GIS v.to.rast.attribute tool. Ensure that you save the raster locally and not just as a temporary file as I have had issues with this previously</li>
+<li>Step 2 - use Grass GIS r.surf.contour to generate a surface from the rasterized contours made in step 1. If your computer is struggling adjust the cellsize. Depending on the scale of your project you may want to increase or decrease this, keeping in mind that smaller values will make larger files and take longer to process.</li>
+</ul>
+
+<p>Things to keep in mind for this process, is that it is an interpolation of the actual surface. This is useful for visualization but should not be considered ground-truthed. Though it can be useful for being able to see depressions and slopes in valleys. In QGIS 3+ you can also view the surface in 3d which is awesome.</p>
 
 
 </div>
@@ -170,16 +185,16 @@ ga('send', 'pageview');
       by <span itemprop="author">CamMakoJ</span>
     
   
-  <time datetime="2018-04-12T17:03:46-06:00">
-    12 Apr, 2018
+  <time datetime="2018-04-13T15:02:33-06:00">
+    13 Apr, 2018
   </time>
   
-    in <span itemprop="articleSection"><a href="/categories/environment/">Environment</a> and <a href="/categories/geomatics/">Geomatics</a></span>
+    in <span itemprop="articleSection"><a href="/categories/geomatics/">Geomatics</a></span>
   
   
-    and tagged <a href="/tags/constraints-mapping/">Constraints Mapping</a>, <a href="/tags/process-modelling/">Process Modelling</a> and <a href="/tags/qgis/">QGIS</a>
+    and tagged <a href="/tags/contours/">Contours</a>, <a href="/tags/dem/">DEM</a>, <a href="/tags/grassgis/">GrassGIS</a> and <a href="/tags/qgis/">QGIS</a>
   
-  using <span itemprop="wordCount">237</span> words.
+  using <span itemprop="wordCount">335</span> words.
 </p>
 
         
@@ -193,7 +208,7 @@ ga('send', 'pageview');
     <ul>
       
       
-        <li><a href="/blog/2018/april/contours-dem/">Creating a DEM from Contours</a> &ndash; 2 minutes
+        <li><a href="/blog/2018/april/qgis-processor-modelling/">QGIS Processor Modelling</a> &ndash; 2 minutes
       
     </ul>
   </aside>
