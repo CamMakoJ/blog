@@ -1,0 +1,4 @@
+<div id="recent">
+  <p> {{ range first 3 (where .Data.Pages "Section" "blog") }}
+    <a href="{{ .Permalink }}">{{ .Title }} - {{ .Date.Format "Jan 2, 2006"}}</a><br /> {{ end }}</p>
+</div>
