@@ -6,10 +6,19 @@
     <description>Recent content in Tags on CamMakoJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Apr 2018 07:07:37 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 06 Apr 2018 09:26:19 -0600</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>4 Hour Workweek</title>
+      <link>/tags/4-hour-workweek/</link>
+      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
+      
+      <guid>/tags/4-hour-workweek/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Acims</title>
@@ -39,11 +48,74 @@
     </item>
     
     <item>
+      <title>Books</title>
+      <link>/tags/books/</link>
+      <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constraints Mapping</title>
+      <link>/tags/constraints-mapping/</link>
+      <pubDate>Thu, 12 Apr 2018 17:03:46 -0600</pubDate>
+      
+      <guid>/tags/constraints-mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contours</title>
+      <link>/tags/contours/</link>
+      <pubDate>Fri, 13 Apr 2018 15:02:33 -0600</pubDate>
+      
+      <guid>/tags/contours/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creativity Inc</title>
+      <link>/tags/creativity-inc/</link>
+      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
+      
+      <guid>/tags/creativity-inc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dem</title>
+      <link>/tags/dem/</link>
+      <pubDate>Fri, 13 Apr 2018 15:02:33 -0600</pubDate>
+      
+      <guid>/tags/dem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Failure</title>
+      <link>/tags/failure/</link>
+      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
+      
+      <guid>/tags/failure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Geomatics</title>
       <link>/tags/geomatics/</link>
       <pubDate>Wed, 04 Apr 2018 09:34:47 -0600</pubDate>
       
       <guid>/tags/geomatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grassgis</title>
+      <link>/tags/grassgis/</link>
+      <pubDate>Fri, 13 Apr 2018 15:02:33 -0600</pubDate>
+      
+      <guid>/tags/grassgis/</guid>
       <description></description>
     </item>
     
@@ -66,11 +138,56 @@
     </item>
     
     <item>
+      <title>Learning</title>
+      <link>/tags/learning/</link>
+      <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Photos</title>
       <link>/tags/photos/</link>
       <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
       
       <guid>/tags/photos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Process Modelling</title>
+      <link>/tags/process-modelling/</link>
+      <pubDate>Thu, 12 Apr 2018 17:03:46 -0600</pubDate>
+      
+      <guid>/tags/process-modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qgis</title>
+      <link>/tags/qgis/</link>
+      <pubDate>Fri, 13 Apr 2018 15:02:33 -0600</pubDate>
+      
+      <guid>/tags/qgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reading</title>
+      <link>/tags/reading/</link>
+      <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/tags/reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Talent Code</title>
+      <link>/tags/the-talent-code/</link>
+      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
+      
+      <guid>/tags/the-talent-code/</guid>
       <description></description>
     </item>
     

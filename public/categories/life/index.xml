@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on CamMakoJ</title>
+    <link>/categories/life/</link>
+    <description>Recent content in Life on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Apr 2018 09:26:19 -0600</lastBuildDate>
+    
+	<atom:link href="/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Value of Failure</title>
+      <link>/blog/2018/april/books-failure/</link>
+      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
+      
+      <guid>/blog/2018/april/books-failure/</guid>
+      <description>I have been trying to read more lately, and by read its been mostly audiobooks. I recently discovered that I can use my local libraries online system to get both e-books and audiobooks on my phone for free which is awesome!
+Check out Libby it is an awesome front end for using your local library resources, and at least where I live its totally free. Definitely worth checking out if you like reading or listening to books.</description>
+    </item>
+    
+    <item>
+      <title>New Blog</title>
+      <link>/blog/2018/april/first-post/</link>
+      <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>
+      
+      <guid>/blog/2018/april/first-post/</guid>
+      <description>I have long wanted to blog more consistently but always got bogged down in what service to use, and how to use it&amp;hellip; or whether I should wait until I could build one myself. Fortunately I came to my senses and no longer think building it from scratch myself makes sense, so I went with a happy medium and am using Hugo and firebase for my needs. Hopefully this helps me learn a bit of website management as well as some more &amp;lsquo;coding&amp;rsquo; skills in my quest for a better understanding of the web.</description>
+    </item>
+    
+  </channel>
+</rss>

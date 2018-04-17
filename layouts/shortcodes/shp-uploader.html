@@ -1,0 +1,90 @@
+<script>
+// shapefile-js
+
+/* global cw, shp */
+L.Shapefile = L.GeoJSON.extend({
+  options: {
+    importUrl: '/js/shp.js'
+  },
+
+  initialize: function(file, options) {
+    L.Util.setOptions(this, options);
+    if (typeof cw !== 'undefined') {
+      /*eslint-disable no-new-func*/
+      if (!options.isArrayBuffer) {.
+        this.worker = cw(new Function('data', 'cb', 'importScripts("' + this.options.importUrl + '");shp(data).then(cb);'));
+      } else {
+        this.worker = cw(new Function('data', 'importScripts("' + this.options.importUrl + '"); return shp.parseZip(data);'));
+      }
+      /*eslint-enable no-new-func*/
+    }
+    L.GeoJSON.prototype.initialize.call(this, {
+      features: []
+    }, options);
+    this.addFileData(file);
+  },
+
+  addFileData: function(file) {
+    var self = this;
+    this.fire('data:loading');
+    if (typeof file !== 'string' && !('byteLength' in file)) {
+      var data = this.addData(file);
+      this.fire('data:loaded');
+      return data;
+    }
+    if (!this.worker) {
+      shp(file).then(function(data) {
+        self.addData(data);
+        self.fire('data:loaded');
+      });
+      return this;
+    }
+    var promise;
+    if (this.options.isArrayBufer) {
+      promise = this.worker.data(file, [file]);
+    } else {
+      promise = this.worker.data(cw.makeUrl(file));
+    }
+
+    promise.then(function(data) {
+      self.addData(data);
+      self.fire('data:loaded');
+      self.worker.close();
+    });
+    return this;
+  }
+});
+
+
+L.shapefile = function(a, b, c) {
+  return new L.Shapefile(a, b, c);
+};
+</script>
+
+<script>
+//my uploader code
+
+function loadFile() {
+  input = document.getElementById('shapefile');
+  if (!input.files[0]) {
+
+  //eventually make this block the clicking by disabling button
+    console.log("Please add a file before clicking upload");
+  } else {
+    file = input.files[0];
+
+    shpRead = new FileReader();
+    shpRead.onload = receiveBinary;
+    shpRead.readAsArrayBuffer(file);
+  }
+  function receiveBinary() {
+    result = shpRead.result
+    var shpfile = new L.Shapefile(result);
+    shpfile.addTo(map)
+  }
+}
+
+
+
+
+</script>

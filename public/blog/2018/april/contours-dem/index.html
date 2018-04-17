@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.37.1" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Creating a DEM from Contours </title>
+
+  
+  <meta name="description" content="I somehow always forget how to do this and have to rebuild the wheel, now I wont forget... or can at least I can find the wheel"> 
+  
+  
+  
+  
+  
+
+  
+
+  <meta name="author" content="CamMakoJ">
+
+
+  <meta property="og:title" content="Creating a DEM from Contours" />
+<meta property="og:description" content="I somehow always forget how to do this and have to rebuild the wheel, now I wont forget... or can at least I can find the wheel" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/2018/april/contours-dem/" />
+
+
+
+<meta property="article:published_time" content="2018-04-13T15:02:33-06:00"/>
+
+<meta property="article:modified_time" content="2018-04-13T15:02:33-06:00"/>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+  
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-116964426-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+  
+
+  <link rel="canonical" href="/blog/2018/april/contours-dem/">  
+
+  <link rel="shortcut icon" type="image/png" href="/img/favicon/favicon.png">
+
+
+  <link href="/css/font.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.min.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.legenda.css" rel="stylesheet" type="text/css">
+  <link href="/css/highlight.css" rel="stylesheet" type="text/css">
+  <link href="/css/master.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.demo.css" rel="stylesheet" type="text/css">
+
+ <link href="/css/custom.css" rel="stylesheet" type="text/css">
+
+  <script src="/js/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+
+  <script type="text/javascript" src="/js/tocbot.min.js"></script>
+</head>
+
+
+<body class="page-kube">
+  <header> <div class="show-sm">
+    <div id="nav-toggle-box">
+      <div id="nav-toggle-brand">
+        <a href="/">CamMakoJ</a>
+      </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+    </div>
+  </div>
+  <div class="hide-sm" id="top">
+    <div id="top-brand">
+      <a href="/" title="home">CamMakoJ</a>
+    </div>
+    <nav id="top-nav-main">
+      <ul>
+       
+       
+    <li><a href="/blog/" >Blog</a></li>
+    
+    <li><a href="/docs/" >Docs</a></li>
+    
+      </ul>
+    </nav>
+    <nav id="top-nav-extra"> 
+      <ul>
+          
+      </ul>
+    </nav>
+  </div>
+ </header>
+  <main>
+<div class="push-center" itemscope itemtype="http://schema.org/BlogPosting">
+    
+<meta itemprop="name" content="Creating a DEM from Contours">
+<meta itemprop="description" content="I somehow always forget how to do this and have to rebuild the wheel, now I wont forget... or can at least I can find the wheel">
+
+
+<meta itemprop="datePublished" content="2018-04-13T15:02:33-06:00" />
+<meta itemprop="dateModified" content="2018-04-13T15:02:33-06:00" />
+<meta itemprop="wordCount" content="335">
+
+
+
+<meta itemprop="keywords" content="QGIS,GrassGIS,Contours,DEM," />
+
+<div id="hero">
+    <h1 itemprop="headline">  Creating a DEM from Contours</h1>
+    
+<blockquote itemprop="description">I somehow always forget how to do this and have to rebuild the wheel, now I wont forget... or can at least I can find the wheel</blockquote>
+
+<time class="post-time"><span class="icon">
+  <i class="fa fa-clock-o" aria-hidden="true"></i>
+</span>
+<span>2 minute read</span>
+<span class="icon">
+ <i class="fa fa-pencil" aria-hidden="true"></i>
+</span>
+
+  Published: <time datetime="2018-04-13T15:02:33-06:00">13 Apr, 2018</time>
+
+</time>
+</div>
+<div id="post-box">
+<div id="post" itemprop="articleBody">
+
+    
+
+<h4 id="contours">Contours</h4>
+
+<p>Contours are a great way to visualize topography on a flat map without covering background imagery. It is often great for figures where you want a visible basemap.</p>
+
+<p><img src="/img/posts/contours-dem/contours.jpg" alt="Contours" /></p>
+
+<h4 id="digital-elevation-model">Digital Elevation Model</h4>
+
+<p>That being said it is nice to have a digital elevation model (DEM) for easier interpretation of what the ground is looking like. I find this easier to see where there are steep slopes and depressions that may be wetlands.</p>
+
+<p><img src="/img/posts/contours-dem/dem.jpg" alt="Contours" /></p>
+
+<h4 id="dem-contours">DEM &ndash;&gt; Contours</h4>
+
+<p>Generally this is a fairly simple task and most GIS suites can handle it quite simply with a dedicated contour extraction tool. From an elevation raster to vector lines. This is usually simpler as you are decreasing the resolution of the data in a sense and removing all the &ldquo;in-between&rdquo; and are just left with the contour break lines.</p>
+
+<h4 id="contours-dem">Contours &ndash;&gt; DEM</h4>
+
+<p>This is often where I get hung up in processing as its much less intuitive. It makes sense that it would be trickier as you are trying to re-interpret the raw data and fill in all the gaps, where you are starting with break lines shown in the contours.</p>
+
+<ul>
+<li>Step 1 - Rasterize the contour lines using Grass GIS v.to.rast.attribute tool. Ensure that you save the raster locally and not just as a temporary file as I have had issues with this previously</li>
+<li>Step 2 - use Grass GIS r.surf.contour to generate a surface from the rasterized contours made in step 1. If your computer is struggling adjust the cellsize. Depending on the scale of your project you may want to increase or decrease this, keeping in mind that smaller values will make larger files and take longer to process.</li>
+</ul>
+
+<p>Things to keep in mind for this process, is that it is an interpolation of the actual surface. This is useful for visualization but should not be considered ground-truthed. Though it can be useful for being able to see depressions and slopes in valleys. In QGIS 3+ you can also view the surface in 3d which is awesome.</p>
+
+
+</div>
+
+    <div class="">
+        <p>
+  Published
+  
+    
+      by <span itemprop="author">CamMakoJ</span>
+    
+  
+  <time datetime="2018-04-13T15:02:33-06:00">
+    13 Apr, 2018
+  </time>
+  
+    in <span itemprop="articleSection"><a href="/categories/geomatics/">Geomatics</a></span>
+  
+  
+    and tagged <a href="/tags/contours/">Contours</a>, <a href="/tags/dem/">DEM</a>, <a href="/tags/grassgis/">GrassGIS</a> and <a href="/tags/qgis/">QGIS</a>
+  
+  using <span itemprop="wordCount">335</span> words.
+</p>
+
+        
+  
+
+
+
+  <aside>
+    <heade><strong>Related Content</strong></header>
+    <hr>
+    <ul>
+      
+      
+        <li><a href="/blog/2018/april/qgis-processor-modelling/">QGIS Processor Modelling</a> &ndash; 2 minutes
+      
+    </ul>
+  </aside>
+
+
+    </div>
+
+    
+    <article>
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "makoj-com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+    
+
+</div>
+</div>
+</main>
+  <footer>   <footer id="footer">
+    <nav>
+      <ul>
+        <li><span>CamMakoJ</span></li>
+        <li>
+          <a href="/about-me/aboutme/">About Me</a>
+        </li>
+        <li>
+          <a href="/blog/">Blog</a>
+        </li>
+          <li>
+          <a href="/docs/">Docs</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/@CamMakoJ"><img alt="Coding" height="20" src="/img/twitter.png" width="20"></a>
+          <a href="https://linkedIn.com/in/CameronJohnston-01"><img alt="Coding" height="20" src="/img/linkedin.png" width="20"></a>
+          <a href="https://github.com/CamMakoJ"><img alt="Coding" height="20" src="/img/github.png" width="20"></a>
+        </li>
+      </ul>
+    </nav>
+    <p>&copy; Licence MIT.</p>
+  </footer>
+ </footer>
+
+
+  
+  <script src="/js/kube.js" type="text/javascript">
+  </script>
+  <script src="/js/kube.legenda.js" type="text/javascript">
+  </script>
+  <script src="/js/master.js" type="text/javascript">
+  </script>
+
+  
+  
+
+</body>
+
+</html>

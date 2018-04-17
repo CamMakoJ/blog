@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on CamMakoJ</title>
+    <link>/tags/learning/</link>
+    <description>Recent content in Learning on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Apr 2018 09:34:47 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My book list</title>
+      <link>/docs/book-list/</link>
+      <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/docs/book-list/</guid>
+      <description>Books I&amp;rsquo;m Reading    Book Author Date Started Genre     Five Languages Of Appreciation In The Workplace Gary Chapman April 16, 2018 Non-fiction   The Fall of Hyperion Dan Simmons 1, 2018 Sci-fi    Books I Plan to Read    Book Author Genre     YNAB Jesse Mecham Non-fiction    Read Books    Book Author Date Read Genre     Creativity Inc.</description>
+    </item>
+    
+  </channel>
+</rss>

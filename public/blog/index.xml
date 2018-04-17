@@ -6,10 +6,39 @@
     <description>Recent content in Blogs on CamMakoJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Apr 2018 11:03:51 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 13 Apr 2018 15:02:33 -0600</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating a DEM from Contours</title>
+      <link>/blog/2018/april/contours-dem/</link>
+      <pubDate>Fri, 13 Apr 2018 15:02:33 -0600</pubDate>
+      
+      <guid>/blog/2018/april/contours-dem/</guid>
+      <description>Contours Contours are a great way to visualize topography on a flat map without covering background imagery. It is often great for figures where you want a visible basemap.
+Digital Elevation Model That being said it is nice to have a digital elevation model (DEM) for easier interpretation of what the ground is looking like. I find this easier to see where there are steep slopes and depressions that may be wetlands.</description>
+    </item>
+    
+    <item>
+      <title>QGIS Processor Modelling</title>
+      <link>/blog/2018/april/qgis-processor-modelling/</link>
+      <pubDate>Thu, 12 Apr 2018 17:03:46 -0600</pubDate>
+      
+      <guid>/blog/2018/april/qgis-processor-modelling/</guid>
+      <description>Constraints Mapping I had a project where I needed to look at constraints mapping for a series of project areas. Essentially I needed to look at a project and see what parts and how many layers it intersected with. The first thing I wanted to look at was how to go about automating as much as I could and since my python skills are still very green I looked into using the new to me QGIS process modeler.</description>
+    </item>
+    
+    <item>
+      <title>The Value of Failure</title>
+      <link>/blog/2018/april/books-failure/</link>
+      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
+      
+      <guid>/blog/2018/april/books-failure/</guid>
+      <description>I have been trying to read more lately, and by read its been mostly audiobooks. I recently discovered that I can use my local libraries online system to get both e-books and audiobooks on my phone for free which is awesome!
+Check out Libby it is an awesome front end for using your local library resources, and at least where I live its totally free. Definitely worth checking out if you like reading or listening to books.</description>
+    </item>
     
     <item>
       <title>LeafletJS Maps</title>
@@ -45,10 +74,10 @@
       
       <guid>/blog/2018/april/my-favourite/</guid>
       <description>2nd
-      3rd
-      5th
-      7th
-     `</description>
+3rd
+5th
+7th
+`</description>
     </item>
     
     <item>
@@ -58,12 +87,12 @@
       
       <guid>/blog/2018/april/old-shots/</guid>
       <description>1st
-      10th
-      11th
-      12th
-      13th
-      16th
-      19th</description>
+10th
+11th
+12th
+13th
+16th
+19th</description>
     </item>
     
     <item>
@@ -73,10 +102,10 @@
       
       <guid>/blog/2018/april/ralph/</guid>
       <description>1st
-      4th
-      6th
-      Ralph pose
-     `</description>
+4th
+6th
+Ralph pose
+`</description>
     </item>
     
   </channel>
