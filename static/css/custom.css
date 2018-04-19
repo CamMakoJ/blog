@@ -44,15 +44,6 @@
   margin-left: -20px;
   background: #ff3366;
 }
-#recent h5:before{
-  position: absolute;
-  content: '';
-  width: 3px;
-  height: 15px;
-  top: 0;
-  left: 50%;
-  margin-left: -20px;
-  background: #ff3366; }
 
 #hero {
   padding-top: 28px;
