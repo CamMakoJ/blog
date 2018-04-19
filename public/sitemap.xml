@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/2018/april/fishing-trip/</loc>
+    <lastmod>2018-04-19T13:24:38-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2018/april/contours-dem/</loc>
     <lastmod>2018-04-13T15:02:33-06:00</lastmod>
   </url>
@@ -104,7 +109,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-04-13T15:02:33-06:00</lastmod>
+    <lastmod>2018-04-19T13:24:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -116,7 +121,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-04-13T15:02:33-06:00</lastmod>
+    <lastmod>2018-04-19T13:24:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -174,6 +179,12 @@
   </url>
   
   <url>
+    <loc>/tags/fishing/</loc>
+    <lastmod>2018-04-19T13:24:38-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/geomatics/</loc>
     <lastmod>2018-04-04T09:34:47-06:00</lastmod>
     <priority>0</priority>
@@ -198,6 +209,12 @@
   </url>
   
   <url>
+    <loc>/tags/jasper/</loc>
+    <lastmod>2018-04-19T13:24:38-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/leafletjs/</loc>
     <lastmod>2018-04-04T11:03:51-06:00</lastmod>
     <priority>0</priority>
@@ -211,7 +228,7 @@
   
   <url>
     <loc>/categories/life/</loc>
-    <lastmod>2018-04-06T09:26:19-06:00</lastmod>
+    <lastmod>2018-04-19T13:24:38-06:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on CamMakoJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Apr 2018 15:02:33 -0600</lastBuildDate>
+    <lastBuildDate>Thu, 19 Apr 2018 13:24:38 -0600</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Headed Fishing</title>
+      <link>/blog/2018/april/fishing-trip/</link>
+      <pubDate>Thu, 19 Apr 2018 13:24:38 -0600</pubDate>
+      
+      <guid>/blog/2018/april/fishing-trip/</guid>
+      <description>I am headed up North to fish near Jasper this weekend. I am pretty excited I&amp;rsquo;ve never been up that way before and its with some good buddies. I have been prepping so far this week by tying up some flies, which I am still learning but there are some simpler streamer patterns that I&amp;rsquo;m not too bad at.
+This is just a little taste of what I was working on&amp;hellip; hopefully I will be able to post that some of these flies were super effective.</description>
+    </item>
     
     <item>
       <title>Creating a DEM from Contours</title>
@@ -74,10 +84,10 @@ Check out Libby it is an awesome front end for using your local library resource
       
       <guid>/blog/2018/april/my-favourite/</guid>
       <description>2nd
-      3rd
-      5th
-      7th
-     `</description>
+3rd
+5th
+7th
+`</description>
     </item>
     
     <item>
@@ -87,12 +97,12 @@ Check out Libby it is an awesome front end for using your local library resource
       
       <guid>/blog/2018/april/old-shots/</guid>
       <description>1st
-      10th
-      11th
-      12th
-      13th
-      16th
-      19th</description>
+10th
+11th
+12th
+13th
+16th
+19th</description>
     </item>
     
     <item>
@@ -102,10 +112,10 @@ Check out Libby it is an awesome front end for using your local library resource
       
       <guid>/blog/2018/april/ralph/</guid>
       <description>1st
-      4th
-      6th
-      Ralph pose
-     `</description>
+4th
+6th
+Ralph pose
+`</description>
     </item>
     
   </channel>

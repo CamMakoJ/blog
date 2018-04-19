@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "CamMakoJ"
 theme = "kube"
 description = "My way of sharing... and remembering the stuff that i do"
-Paginate = 10
+Paginate = 8
 disqusShortname = "makoj-com"
 googleAnalytics = "UA-116964426-1"
 [Params]

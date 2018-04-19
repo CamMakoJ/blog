@@ -1,4 +1,10 @@
 <div id="recent">
-  <p> {{ range first 3 (where .Data.Pages "Section" "blog") }}
-    <a href="{{ .Permalink }}">{{ .Title }} - {{ .Date.Format "Jan 2, 2006"}}</a><br /> {{ end }}</p>
+  <div>
+<h3>Recent Posts</h3>
+<p></p>
+  </div>
+  <div class="row align-center gutters">
+    {{ range first 3 (where .Data.Pages "Section" "blog") }}
+    <h5 class="col"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}</h5>
+  </div>
 </div>

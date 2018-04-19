@@ -44,6 +44,15 @@
   margin-left: -20px;
   background: #ff3366;
 }
+#recent h5:before{
+  position: absolute;
+  content: '';
+  width: 3px;
+  height: 15px;
+  top: 0;
+  left: 50%;
+  margin-left: -20px;
+  background: #ff3366; }
 
 #hero {
   padding-top: 28px;
@@ -114,4 +123,27 @@
 
 #kube-features .item {
   padding: 0 24px;
+}
+
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto; /* you can replace the vertical '0.7rem' by
+                            whatever floats your boat, but keep the
+                            horizontal 'auto' for this to work */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatleft']
+{
+    float:left;
+    margin: 0.7rem;      /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
+}
+
+img[src$='#floatright']
+{
+    float:right;
+    margin: 0.7rem;      /* this margin is totally up to you */
+    /* whatever else styles you fancy here */
 }
