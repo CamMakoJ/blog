@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/2018/april/fishing-athabasca/</loc>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2018/april/fishing-trip/</loc>
     <lastmod>2018-04-19T13:24:38-06:00</lastmod>
   </url>
@@ -108,8 +113,14 @@
   </url>
   
   <url>
+    <loc>/tags/athabasca/</loc>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/blog/</loc>
-    <lastmod>2018-04-19T13:24:38-06:00</lastmod>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -121,7 +132,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-04-19T13:24:38-06:00</lastmod>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -133,6 +144,12 @@
   <url>
     <loc>/categories/coding/</loc>
     <lastmod>2018-04-04T11:03:51-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/columbia-ice-fields/</loc>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -180,7 +197,13 @@
   
   <url>
     <loc>/tags/fishing/</loc>
-    <lastmod>2018-04-19T13:24:38-06:00</lastmod>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fly-fishing/</loc>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -203,6 +226,18 @@
   </url>
   
   <url>
+    <loc>/tags/highway-93/</loc>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hwy-93/</loc>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/ionic/</loc>
     <lastmod>2018-04-02T23:07:49-06:00</lastmod>
     <priority>0</priority>
@@ -210,7 +245,7 @@
   
   <url>
     <loc>/tags/jasper/</loc>
-    <lastmod>2018-04-19T13:24:38-06:00</lastmod>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -228,7 +263,7 @@
   
   <url>
     <loc>/categories/life/</loc>
-    <lastmod>2018-04-19T13:24:38-06:00</lastmod>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -259,6 +294,12 @@
   <url>
     <loc>/tags/reading/</loc>
     <lastmod>2018-04-06T09:34:47-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/streamers/</loc>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   

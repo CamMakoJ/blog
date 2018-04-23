@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Columbia Ice Fields on CamMakoJ</title>
+    <link>/tags/columbia-ice-fields/</link>
+    <description>Recent content in Columbia Ice Fields on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Apr 2018 23:20:45 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/columbia-ice-fields/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fishing the Athabasca River</title>
+      <link>/blog/2018/april/fishing-athabasca/</link>
+      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
+      
+      <guid>/blog/2018/april/fishing-athabasca/</guid>
+      <description>Athabasca falls
+      Athabasca falls2
+      Athabasca river
+      Colombia icefields
+      Echo base 7wt
+     I went on a trip to the Athabasca river with some friends.</description>
+    </item>
+    
+  </channel>
+</rss>
