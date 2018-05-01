@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geoserver on CamMakoJ</title>
+    <link>/tags/geoserver/</link>
+    <description>Recent content in Geoserver on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 May 2018 13:42:23 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/geoserver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GeoServer Fun</title>
+      <link>/blog/2018/may/geoserver-fun/</link>
+      <pubDate>Tue, 01 May 2018 13:42:23 -0600</pubDate>
+      
+      <guid>/blog/2018/may/geoserver-fun/</guid>
+      <description>I got this big idea in my head that I wanted to make it easier for co-workers to access the treasure trove of GIS data I have been collecting. Mostly just standard public datasets, but it&amp;rsquo;s nice to be able to pull them into your GIS Environment and view them along with the other layers your looking at. Originally I had setup a bunch of geopackages on dropbox to organize and share the datasets, however this required each user to download a local copy of the data and wasn&amp;rsquo;t terribly efficient.</description>
+    </item>
+    
+  </channel>
+</rss>
