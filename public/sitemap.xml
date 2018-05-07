@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/2018/may/camping-fallentimber/</loc>
+    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2018/may/cooking-gochujang-chicken/</loc>
     <lastmod>2018-05-01T16:38:34-06:00</lastmod>
   </url>
@@ -111,6 +116,12 @@
   </url>
   
   <url>
+    <loc>/tags/alberta/</loc>
+    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/alberta-plant-species/</loc>
     <lastmod>2018-04-03T07:07:37-06:00</lastmod>
     <priority>0</priority>
@@ -130,7 +141,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-05-01T16:38:34-06:00</lastmod>
+    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -142,7 +153,13 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-05-01T16:38:34-06:00</lastmod>
+    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/camping/</loc>
+    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -213,7 +230,7 @@
   
   <url>
     <loc>/tags/fishing/</loc>
-    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
+    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -303,7 +320,7 @@
   
   <url>
     <loc>/categories/life/</loc>
-    <lastmod>2018-05-01T16:38:34-06:00</lastmod>
+    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -315,7 +332,7 @@
   
   <url>
     <loc>/categories/photography/</loc>
-    <lastmod>2018-04-02T19:56:14-06:00</lastmod>
+    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
     <priority>0</priority>
   </url>
   
