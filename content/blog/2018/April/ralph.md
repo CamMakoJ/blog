@@ -5,7 +5,7 @@ weight = 20
 draft = false
 date = 2018-04-02T19:56:14-06:00
 tags = ["photos"]
-categories = ["photography"]
+categories = ["Photography"]
 +++
 
 {{< load-photoswipe >}}
