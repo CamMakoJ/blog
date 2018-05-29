@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/2018/may/aer-shapefile-submissions/</loc>
+    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2018/may/camping-fallentimber/</loc>
     <lastmod>2018-05-07T14:22:37-06:00</lastmod>
   </url>
@@ -116,6 +121,12 @@
   </url>
   
   <url>
+    <loc>/tags/aer/</loc>
+    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/alberta/</loc>
     <lastmod>2018-05-07T14:22:37-06:00</lastmod>
     <priority>0</priority>
@@ -141,7 +152,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
+    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -153,7 +164,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
+    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -218,7 +229,7 @@
   
   <url>
     <loc>/categories/environment/</loc>
-    <lastmod>2018-05-01T13:42:23-06:00</lastmod>
+    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -248,7 +259,7 @@
   
   <url>
     <loc>/categories/geomatics/</loc>
-    <lastmod>2018-05-01T13:42:23-06:00</lastmod>
+    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -350,7 +361,7 @@
   
   <url>
     <loc>/tags/qgis/</loc>
-    <lastmod>2018-04-13T15:02:33-06:00</lastmod>
+    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -363,6 +374,12 @@
   <url>
     <loc>/tags/recipes/</loc>
     <lastmod>2018-05-01T16:38:34-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/shapefile/</loc>
+    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -387,6 +404,12 @@
   <url>
     <loc>/tags/the-talent-code/</loc>
     <lastmod>2018-04-06T09:26:19-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/water-act/</loc>
+    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
     <priority>0</priority>
   </url>
   
