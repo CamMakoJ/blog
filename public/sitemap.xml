@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/blog/2018/may/ralph-boy/</loc>
+    <lastmod>2018-05-13T12:25:54-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2018/may/camping-fallentimber/</loc>
     <lastmod>2018-05-07T14:22:37-06:00</lastmod>
   </url>
@@ -228,6 +233,12 @@
   </url>
   
   <url>
+    <loc>/tags/dogs/</loc>
+    <lastmod>2018-05-13T12:25:54-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/environment/</loc>
     <lastmod>2018-05-29T11:49:16-06:00</lastmod>
     <priority>0</priority>
@@ -331,7 +342,7 @@
   
   <url>
     <loc>/categories/life/</loc>
-    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
+    <lastmod>2018-05-13T12:25:54-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -362,6 +373,12 @@
   <url>
     <loc>/tags/qgis/</loc>
     <lastmod>2018-05-29T11:49:16-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ralph/</loc>
+    <lastmod>2018-05-13T12:25:54-06:00</lastmod>
     <priority>0</priority>
   </url>
   
