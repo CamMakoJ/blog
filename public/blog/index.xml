@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on CamMakoJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 May 2018 11:49:16 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jun 2018 10:44:45 -0600</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Expressions in a QGIS Atlas</title>
+      <link>/blog/2018/june/qgis-atlas-expressions/</link>
+      <pubDate>Tue, 05 Jun 2018 10:44:45 -0600</pubDate>
+      
+      <guid>/blog/2018/june/qgis-atlas-expressions/</guid>
+      <description>It has taken me a long time to get comfortable with the print composer in QGIS. I think for me the biggest issue is once you hit that composer you need to combine all the data you have worked with and make it look appealing while conveying the message you are trying to tell with the map. It&amp;rsquo;s art, it&amp;rsquo;s science, it&amp;rsquo;s cartography! It also can be a very fun part of telling the data&amp;rsquo;s story and I love maps for that as they can show a lot in a simple way.</description>
+    </item>
     
     <item>
       <title>AER Shapefile Submissions</title>
@@ -64,11 +73,11 @@ Overall it wasn&amp;rsquo;t too much work and it definitely was good practice wi
       
       <guid>/blog/2018/april/fishing-athabasca/</guid>
       <description>Athabasca falls
-      Athabasca falls2
-      Athabasca river
-      Colombia icefields
-      Echo base 7wt
-     I went on a trip to the Athabasca river with some friends.</description>
+Athabasca falls2
+Athabasca river
+Colombia icefields
+Echo base 7wt
+I went on a trip to the Athabasca river with some friends.</description>
     </item>
     
     <item>
@@ -144,10 +153,10 @@ Check out Libby it is an awesome front end for using your local library resource
       
       <guid>/blog/2018/april/my-favourite/</guid>
       <description>2nd
-      3rd
-      5th
-      7th
-     `</description>
+3rd
+5th
+7th
+`</description>
     </item>
     
     <item>
@@ -157,12 +166,12 @@ Check out Libby it is an awesome front end for using your local library resource
       
       <guid>/blog/2018/april/old-shots/</guid>
       <description>1st
-      10th
-      11th
-      12th
-      13th
-      16th
-      19th</description>
+10th
+11th
+12th
+13th
+16th
+19th</description>
     </item>
     
     <item>
@@ -172,10 +181,10 @@ Check out Libby it is an awesome front end for using your local library resource
       
       <guid>/blog/2018/april/ralph/</guid>
       <description>1st
-      4th
-      6th
-      Ralph pose
-     `</description>
+4th
+6th
+Ralph pose
+`</description>
     </item>
     
   </channel>

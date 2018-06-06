@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atlas on CamMakoJ</title>
+    <link>/tags/atlas/</link>
+    <description>Recent content in Atlas on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jun 2018 10:44:45 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/atlas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Expressions in a QGIS Atlas</title>
+      <link>/blog/2018/june/qgis-atlas-expressions/</link>
+      <pubDate>Tue, 05 Jun 2018 10:44:45 -0600</pubDate>
+      
+      <guid>/blog/2018/june/qgis-atlas-expressions/</guid>
+      <description>It has taken me a long time to get comfortable with the print composer in QGIS. I think for me the biggest issue is once you hit that composer you need to combine all the data you have worked with and make it look appealing while conveying the message you are trying to tell with the map. It&amp;rsquo;s art, it&amp;rsquo;s science, it&amp;rsquo;s cartography! It also can be a very fun part of telling the data&amp;rsquo;s story and I love maps for that as they can show a lot in a simple way.</description>
+    </item>
+    
+  </channel>
+</rss>
