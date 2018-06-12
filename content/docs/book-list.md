@@ -12,8 +12,8 @@ tags = ["books", "reading", "learning"]
 ### Books I'm Reading
 | Book | Author | Date Started| Genre |
 | --- |---|---|---|
-| [Five Languages Of Appreciation In The Workplace](https://amzn.to/2HFrSoz) | Gary Chapman | April 16, 2018 | Non-fiction |
-| [The Fall of Hyperion](https://amzn.to/2ERyMnB) | Dan Simmons | 1, 2018 | Sci-fi |
+| [The Fall of Hyperion](https://amzn.to/2ERyMnB) | Dan Simmons | January 1, 2018 | Sci-fi |
+| [Multipliers](https://amzn.to/2JyApO8) | Liz Wiseman |  June 1, 2018 | Non-fiction |
 
 ### Books I Plan to Read
 | Book | Author | Genre |
@@ -27,3 +27,6 @@ tags = ["books", "reading", "learning"]
 | [The 4-Hour Workweek](https://amzn.to/2HduWYK) | Tim Ferris | March 30, 2018 | Non-fiction |
 | [The Talent Code](https://amzn.to/2HduWYK) | Daniel Coyle | April 14, 2018 | Non-fiction |
 | [Hyperion](https://amzn.to/2qCXumx) | Dan Simmons | January 1, 2018 | Sci-fi |
+| [Five Languages Of Appreciation In The Workplace](https://amzn.to/2HFrSoz) | Gary Chapman | May 15, 2018 | Non-fiction |
+| [Five Love Languages](https://amzn.to/2MiUXIr) | Gary Chapman | May 28, 2018 | Non-fiction |
+| [The Art of Thinking Clearly](https://amzn.to/2sOUhSL) | Rolf Dobelli | June 3, 2018 | Non-fiction |
