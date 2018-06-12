@@ -6,10 +6,19 @@
     <description>Recent content in Geomatics on CamMakoJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 May 2018 11:49:16 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jun 2018 10:44:45 -0600</lastBuildDate>
     
 	<atom:link href="/categories/geomatics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Expressions in a QGIS Atlas</title>
+      <link>/blog/2018/june/qgis-atlas-expressions/</link>
+      <pubDate>Tue, 05 Jun 2018 10:44:45 -0600</pubDate>
+      
+      <guid>/blog/2018/june/qgis-atlas-expressions/</guid>
+      <description>It has taken me a long time to get comfortable with the print composer in QGIS. I think for me the biggest issue is once you hit that composer you need to combine all the data you have worked with and make it look appealing while conveying the message you are trying to tell with the map. It&amp;rsquo;s art, it&amp;rsquo;s science, it&amp;rsquo;s cartography! It also can be a very fun part of telling the data&amp;rsquo;s story and I love maps for that as they can show a lot in a simple way.</description>
+    </item>
     
     <item>
       <title>AER Shapefile Submissions</title>

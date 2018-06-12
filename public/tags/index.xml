@@ -75,6 +75,15 @@
     </item>
     
     <item>
+      <title>Atlas</title>
+      <link>/tags/atlas/</link>
+      <pubDate>Tue, 05 Jun 2018 10:44:45 -0600</pubDate>
+      
+      <guid>/tags/atlas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Books</title>
       <link>/tags/books/</link>
       <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
@@ -152,6 +161,15 @@
       <pubDate>Sun, 13 May 2018 12:25:54 -0600</pubDate>
       
       <guid>/tags/dogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expressions</title>
+      <link>/tags/expressions/</link>
+      <pubDate>Tue, 05 Jun 2018 10:44:45 -0600</pubDate>
+      
+      <guid>/tags/expressions/</guid>
       <description></description>
     </item>
     
@@ -320,7 +338,7 @@
     <item>
       <title>Qgis</title>
       <link>/tags/qgis/</link>
-      <pubDate>Tue, 29 May 2018 11:49:16 -0600</pubDate>
+      <pubDate>Tue, 05 Jun 2018 10:44:45 -0600</pubDate>
       
       <guid>/tags/qgis/</guid>
       <description></description>

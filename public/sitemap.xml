@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/2018/june/qgis-atlas-expressions/</loc>
+    <lastmod>2018-06-05T10:44:45-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2018/may/aer-shapefile-submissions/</loc>
     <lastmod>2018-05-29T11:49:16-06:00</lastmod>
   </url>
@@ -156,8 +161,14 @@
   </url>
   
   <url>
+    <loc>/tags/atlas/</loc>
+    <lastmod>2018-06-05T10:44:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/blog/</loc>
-    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
+    <lastmod>2018-06-05T10:44:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -169,7 +180,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
+    <lastmod>2018-06-05T10:44:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -245,6 +256,12 @@
   </url>
   
   <url>
+    <loc>/tags/expressions/</loc>
+    <lastmod>2018-06-05T10:44:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/failure/</loc>
     <lastmod>2018-04-06T09:26:19-06:00</lastmod>
     <priority>0</priority>
@@ -263,14 +280,14 @@
   </url>
   
   <url>
-    <loc>/tags/geomatics/</loc>
-    <lastmod>2018-04-04T09:34:47-06:00</lastmod>
+    <loc>/categories/geomatics/</loc>
+    <lastmod>2018-06-05T10:44:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/geomatics/</loc>
-    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
+    <loc>/tags/geomatics/</loc>
+    <lastmod>2018-04-04T09:34:47-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -372,7 +389,7 @@
   
   <url>
     <loc>/tags/qgis/</loc>
-    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
+    <lastmod>2018-06-05T10:44:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
