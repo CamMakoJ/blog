@@ -6,10 +6,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Using Expressions in a QGIS Atlas </title>
+  <title> Turning Shapefiles into a GPX </title>
 
   
-  <meta name="description" content="Automating atlas style maps with overviews that change as well"> 
+  <meta name="description" content="This seemingly simple task has often given me grief in the past, I will try and explain my process"> 
   
   
   
@@ -21,16 +21,16 @@
   <meta name="author" content="CamMakoJ">
 
 
-  <meta property="og:title" content="Using Expressions in a QGIS Atlas" />
-<meta property="og:description" content="Automating atlas style maps with overviews that change as well" />
+  <meta property="og:title" content="Turning Shapefiles into a GPX" />
+<meta property="og:description" content="This seemingly simple task has often given me grief in the past, I will try and explain my process" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/blog/2018/june/qgis-atlas-expressions/" />
+<meta property="og:url" content="/blog/2018/july/shapefiles-to-gpx/" />
 
 
 
-<meta property="article:published_time" content="2018-06-05T10:44:45-06:00"/>
+<meta property="article:published_time" content="2018-07-30T15:53:44-06:00"/>
 
-<meta property="article:modified_time" content="2018-06-05T10:44:45-06:00"/>
+<meta property="article:modified_time" content="2018-07-30T15:53:44-06:00"/>
 
 
 
@@ -60,7 +60,7 @@ ga('send', 'pageview');
 
   
 
-  <link rel="canonical" href="/blog/2018/june/qgis-atlas-expressions/">  
+  <link rel="canonical" href="/blog/2018/july/shapefiles-to-gpx/">  
 
   <link rel="shortcut icon" type="image/png" href="/img/favicon/favicon.png">
 
@@ -113,54 +113,43 @@ ga('send', 'pageview');
   <main>
 <div class="push-center" itemscope itemtype="http://schema.org/BlogPosting">
     
-<meta itemprop="name" content="Using Expressions in a QGIS Atlas">
-<meta itemprop="description" content="Automating atlas style maps with overviews that change as well">
+<meta itemprop="name" content="Turning Shapefiles into a GPX">
+<meta itemprop="description" content="This seemingly simple task has often given me grief in the past, I will try and explain my process">
 
 
-<meta itemprop="datePublished" content="2018-06-05T10:44:45-06:00" />
-<meta itemprop="dateModified" content="2018-06-05T10:44:45-06:00" />
-<meta itemprop="wordCount" content="426">
+<meta itemprop="datePublished" content="2018-07-30T15:53:44-06:00" />
+<meta itemprop="dateModified" content="2018-07-30T15:53:44-06:00" />
+<meta itemprop="wordCount" content="201">
 
 
 
-<meta itemprop="keywords" content="QGIS,Expressions,Atlas," />
+<meta itemprop="keywords" content="QGIS,GPS,Shapefiles,GPX," />
 
 <div id="hero">
-    <h1 itemprop="headline">  Using Expressions in a QGIS Atlas</h1>
+    <h1 itemprop="headline">  Turning Shapefiles into a GPX</h1>
     
-<blockquote itemprop="description">Automating atlas style maps with overviews that change as well</blockquote>
+<blockquote itemprop="description">This seemingly simple task has often given me grief in the past, I will try and explain my process</blockquote>
 
 <time class="post-time"><span class="icon">
   <i class="fa fa-clock-o" aria-hidden="true"></i>
 </span>
-<span>2 minute read</span>
+<span>1 minute read</span>
 <span class="icon">
  <i class="fa fa-pencil" aria-hidden="true"></i>
 </span>
 
-  Published: <time datetime="2018-06-05T10:44:45-06:00">5 Jun, 2018</time>
+  Published: <time datetime="2018-07-30T15:53:44-06:00">30 Jul, 2018</time>
 
 </time>
 </div>
 <div id="post-box">
 <div id="post" itemprop="articleBody">
 
-    
+    <p>Quite often for environmental field work I need to convert shapefiles or other GIS formats into GPX files. Now this would seem like it should be a simple task for the mighty QGIS. However in many cases its not as simple as hitting export and choosing the gpx file type. What I have found is super helpful is considering what I typically see in GPX files. Routes, Tracks, and Waypoints. This is a little different then the points, lines, and polygons of the shapefile world. Typically then I like to convert all of my polygons to lines prior to saving as a GPX. I find this is super effective at ensuring the GPX file is happily readable by your GPS. The next thing I generally do is re-project the layers into <a href="http://www.epsg-registry.org/export.htm?wkt=urn:ogc:def:crs:EPSG::4326">WGS 84 (EPSG: 4326)</a></p>
 
-<p>It has taken me a long time to get comfortable with the print composer in QGIS. I think for me the biggest issue is once you hit that composer you need to combine all the data you have worked with and make it look appealing while conveying the message you are trying to tell with the map. It&rsquo;s art, it&rsquo;s science, it&rsquo;s cartography! It also can be a very fun part of telling the data&rsquo;s story and I love maps for that as they can show a lot in a simple way.</p>
+<p>Converting to lines and re-projecting usually completes my geometry steps. The next issue is generally the limited attributes within a GPX file. When you save the GPX file ensure you enable &lsquo;GPS_USE_EXTENSIONS&rsquo; or remove all the attributes from the shapefile other then &lsquo;name&rsquo;.</p>
 
-<p>One way to improve the message your telling, depending on the project, is to use the Atlas feature of QGIS. In it you can create a series of maps that are based on features within a coverage layer. Say you have a layer with 10 polygons representing areas of interest but they are far apart and you want to have 1:5000 map of each. If you use this layer as your &lsquo;coverage&rsquo; layer then the print composer will create 10 &lsquo;maps&rsquo; each focused on 1 of the polygons.</p>
-
-<h3 id="setting-the-coverage-layer">Setting the Coverage Layer</h3>
-
-<p>In the print composer, select the &lsquo;Atlas&rsquo; panel near the layout and item properties panels. If this isn&rsquo;t visible under &lsquo;View&gt;Panels&rsquo; make sure the &lsquo;Atlas&rsquo; panel is checked. Once your in the panel, check the &lsquo;Generate Atlas&rsquo; box and configure the coverage layer. You can also select an attribute to serve as the page name (typically I would use a unique identifier or if you have a name attribute that works great to).  As well I generally try and have an &lsquo;order&rsquo; attribute included so that I can set them to export in an order I want. I find using a fid finicky, as they often aren&rsquo;t in the order you want them.</p>
-
-<h3 id="using-expressions-to-update-maps">Using Expressions to Update maps</h3>
-
-<p>One of the most powerful features of atlas making is the ability to use expressions to individualize each map of the atlas. A basic example could be pulling attributes from the current feature into a textbox. To do this, create the textbox normally. Then in the Item Properties panel, select &lsquo;insert expression&rsquo;. This will open a window like this:
-<img src="/img/posts/qgis-atlas-expressions/expression-screen.JPG" alt="QGIS Expression Window" /></p>
-
-<p>This is an expression to take two attributes for each feature, &ldquo;NorthingA&rdquo; and &ldquo;EastingA&rdquo; and combine them into a string separated by a comma. On the atlas page then this textbox is providing a specific location on each of the maps that I want to show. This is incredibly useful if you want each of the atlas pages to display specific information to that feature.</p>
+<p>That process typically works for me, I am looking to automate it, and will provide an update if I get around to it.</p>
 
 
 </div>
@@ -173,16 +162,16 @@ ga('send', 'pageview');
       by <span itemprop="author">CamMakoJ</span>
     
   
-  <time datetime="2018-06-05T10:44:45-06:00">
-    5 Jun, 2018
+  <time datetime="2018-07-30T15:53:44-06:00">
+    30 Jul, 2018
   </time>
   
     in <span itemprop="articleSection"><a href="/categories/geomatics/">Geomatics</a></span>
   
   
-    and tagged <a href="/tags/atlas/">Atlas</a>, <a href="/tags/expressions/">Expressions</a> and <a href="/tags/qgis/">QGIS</a>
+    and tagged <a href="/tags/gps/">GPS</a>, <a href="/tags/gpx/">GPX</a>, <a href="/tags/qgis/">QGIS</a> and <a href="/tags/shapefiles/">Shapefiles</a>
   
-  using <span itemprop="wordCount">426</span> words.
+  using <span itemprop="wordCount">201</span> words.
 </p>
 
         
@@ -196,9 +185,9 @@ ga('send', 'pageview');
     <ul>
       
       
-        <li><a href="/blog/2018/july/shapefiles-to-gpx/">Turning Shapefiles into a GPX</a> &ndash; 1 minutes
-      
         <li><a href="/blog/2018/july/qgis-avenza-maps/">Avenza Georeferenced Maps in QGIS</a> &ndash; 1 minutes
+      
+        <li><a href="/blog/2018/june/qgis-atlas-expressions/">Using Expressions in a QGIS Atlas</a> &ndash; 2 minutes
       
         <li><a href="/blog/2018/may/aer-shapefile-submissions/">AER Shapefile Submissions</a> &ndash; 2 minutes
       
