@@ -6,10 +6,19 @@
     <description>Recent content on CamMakoJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jul 2018 15:53:44 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 03 Aug 2018 11:15:08 -0600</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using a DEM to get Slope Directions</title>
+      <link>/blog/2018/august/slope-direction-from-dem/</link>
+      <pubDate>Fri, 03 Aug 2018 11:15:08 -0600</pubDate>
+      
+      <guid>/blog/2018/august/slope-direction-from-dem/</guid>
+      <description>To properly assess wetlands it&amp;rsquo;s important to understand what is happening to surface water at and near the wetland itself. If you have a digital elevation model from LIDAR or something similar then you can look at visually to determine the catchment areas and slope direction, however in some cases I find the overall surface to be too flat to effectively do this visually. I also find that using software to do the math is a lot easier&amp;hellip; and more reproducible.</description>
+    </item>
     
     <item>
       <title>Turning Shapefiles into a GPX</title>

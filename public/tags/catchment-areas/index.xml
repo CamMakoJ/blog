@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dem on CamMakoJ</title>
-    <link>/tags/dem/</link>
-    <description>Recent content in Dem on CamMakoJ</description>
+    <title>Catchment Areas on CamMakoJ</title>
+    <link>/tags/catchment-areas/</link>
+    <description>Recent content in Catchment Areas on CamMakoJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Aug 2018 11:15:08 -0600</lastBuildDate>
     
-	<atom:link href="/tags/dem/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/catchment-areas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>/blog/2018/august/slope-direction-from-dem/</guid>
       <description>To properly assess wetlands it&amp;rsquo;s important to understand what is happening to surface water at and near the wetland itself. If you have a digital elevation model from LIDAR or something similar then you can look at visually to determine the catchment areas and slope direction, however in some cases I find the overall surface to be too flat to effectively do this visually. I also find that using software to do the math is a lot easier&amp;hellip; and more reproducible.</description>
-    </item>
-    
-    <item>
-      <title>Creating a DEM from Contours</title>
-      <link>/blog/2018/april/contours-dem/</link>
-      <pubDate>Fri, 13 Apr 2018 15:02:33 -0600</pubDate>
-      
-      <guid>/blog/2018/april/contours-dem/</guid>
-      <description>Contours Contours are a great way to visualize topography on a flat map without covering background imagery. It is often great for figures where you want a visible basemap.
-Digital Elevation Model That being said it is nice to have a digital elevation model (DEM) for easier interpretation of what the ground is looking like. I find this easier to see where there are steep slopes and depressions that may be wetlands.</description>
     </item>
     
   </channel>
