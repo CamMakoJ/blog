@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/2020/february/blender-topo-maps/</loc>
+    <lastmod>2020-02-16T11:15:08-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2019/september/simplifying-contours/</loc>
+    <lastmod>2019-09-28T11:15:08-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/2018/august/slope-direction-from-dem/</loc>
     <lastmod>2018-08-03T11:15:08-06:00</lastmod>
   </url>
@@ -128,86 +138,68 @@
   </url>
   
   <url>
-    <loc>/tags/4-hour-workweek/</loc>
-    <lastmod>2018-04-06T09:26:19-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/about-me/</loc>
-    <lastmod>2018-04-02T20:00:06-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/acims/</loc>
-    <lastmod>2018-04-03T07:07:37-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/aer/</loc>
-    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/alberta/</loc>
-    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/alberta-plant-species/</loc>
-    <lastmod>2018-04-03T07:07:37-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/app-development/</loc>
-    <lastmod>2018-04-03T07:07:37-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/athabasca/</loc>
-    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/atlas/</loc>
-    <lastmod>2018-06-05T10:44:45-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/avenza/</loc>
-    <lastmod>2018-07-04T16:05:45-06:00</lastmod>
+    <loc>/tags/blender/</loc>
+    <lastmod>2020-02-16T11:15:08-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-08-03T11:15:08-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/books/</loc>
-    <lastmod>2018-04-06T09:34:47-06:00</lastmod>
+    <lastmod>2020-02-16T11:15:08-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-08-03T11:15:08-06:00</lastmod>
+    <lastmod>2020-02-16T11:15:08-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/camping/</loc>
-    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-02-16T11:15:08-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/contours/</loc>
+    <lastmod>2020-02-16T11:15:08-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dem/</loc>
+    <lastmod>2020-02-16T11:15:08-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/environment/</loc>
+    <lastmod>2020-02-16T11:15:08-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/geomatics/</loc>
+    <lastmod>2020-02-16T11:15:08-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/qgis/</loc>
+    <lastmod>2020-02-16T11:15:08-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-02-16T11:15:08-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/simplified/</loc>
+    <lastmod>2019-09-28T11:15:08-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -218,127 +210,14 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/coding/</loc>
-    <lastmod>2018-04-04T11:03:51-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/columbia-ice-fields/</loc>
-    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/constraints-mapping/</loc>
-    <lastmod>2018-04-12T17:03:46-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/contours/</loc>
-    <lastmod>2018-04-13T15:02:33-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/cooking/</loc>
-    <lastmod>2018-05-01T16:38:34-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/creativity-inc/</loc>
-    <lastmod>2018-04-06T09:26:19-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/dem/</loc>
+    <loc>/tags/slope/</loc>
     <lastmod>2018-08-03T11:15:08-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/docs/</loc>
-    <lastmod>2018-04-06T09:34:47-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/dogs/</loc>
-    <lastmod>2018-05-13T12:25:54-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/environment/</loc>
+    <loc>/tags/wetland-assessment/</loc>
     <lastmod>2018-08-03T11:15:08-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/expressions/</loc>
-    <lastmod>2018-06-05T10:44:45-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/failure/</loc>
-    <lastmod>2018-04-06T09:26:19-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/field-work/</loc>
-    <lastmod>2018-07-04T16:05:45-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/fishing/</loc>
-    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/fly-fishing/</loc>
-    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/geomatics/</loc>
-    <lastmod>2018-04-04T09:34:47-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/geomatics/</loc>
-    <lastmod>2018-08-03T11:15:08-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/geoserver/</loc>
-    <lastmod>2018-05-01T13:42:23-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/gis/</loc>
-    <lastmod>2018-05-01T13:42:23-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/gochujang/</loc>
-    <lastmod>2018-05-01T16:38:34-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -355,13 +234,157 @@
   </url>
   
   <url>
-    <loc>/tags/grassgis/</loc>
-    <lastmod>2018-04-13T15:02:33-06:00</lastmod>
+    <loc>/tags/shapefiles/</loc>
+    <lastmod>2018-07-30T15:53:44-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/highway-93/</loc>
+    <loc>/tags/avenza/</loc>
+    <lastmod>2018-07-04T16:05:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/field-work/</loc>
+    <lastmod>2018-07-04T16:05:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/atlas/</loc>
+    <lastmod>2018-06-05T10:44:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/expressions/</loc>
+    <lastmod>2018-06-05T10:44:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/aer/</loc>
+    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/shapefile/</loc>
+    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/water-act/</loc>
+    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dogs/</loc>
+    <lastmod>2018-05-13T12:25:54-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/life/</loc>
+    <lastmod>2018-05-13T12:25:54-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ralph/</loc>
+    <lastmod>2018-05-13T12:25:54-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/alberta/</loc>
+    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/camping/</loc>
+    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fishing/</loc>
+    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/photography/</loc>
+    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cooking/</loc>
+    <lastmod>2018-05-01T16:38:34-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gochujang/</loc>
+    <lastmod>2018-05-01T16:38:34-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/recipes/</loc>
+    <lastmod>2018-05-01T16:38:34-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sous-vide/</loc>
+    <lastmod>2018-05-01T16:38:34-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gis/</loc>
+    <lastmod>2018-05-01T13:42:23-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/geoserver/</loc>
+    <lastmod>2018-05-01T13:42:23-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/large-data/</loc>
+    <lastmod>2018-05-01T13:42:23-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/open-source/</loc>
+    <lastmod>2018-05-01T13:42:23-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/athabasca/</loc>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/columbia-ice-fields/</loc>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fly-fishing/</loc>
     <lastmod>2018-04-22T23:20:45-06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -373,8 +396,8 @@
   </url>
   
   <url>
-    <loc>/tags/ionic/</loc>
-    <lastmod>2018-04-02T23:07:49-06:00</lastmod>
+    <loc>/tags/highway-93/</loc>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -385,44 +408,20 @@
   </url>
   
   <url>
-    <loc>/tags/large-data/</loc>
-    <lastmod>2018-05-01T13:42:23-06:00</lastmod>
+    <loc>/tags/streamers/</loc>
+    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/leafletjs/</loc>
-    <lastmod>2018-04-04T11:03:51-06:00</lastmod>
+    <loc>/tags/grassgis/</loc>
+    <lastmod>2018-04-13T15:02:33-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/learning/</loc>
-    <lastmod>2018-04-06T09:34:47-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/life/</loc>
-    <lastmod>2018-05-13T12:25:54-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/open-source/</loc>
-    <lastmod>2018-05-01T13:42:23-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/photography/</loc>
-    <lastmod>2018-05-07T14:22:37-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/photos/</loc>
-    <lastmod>2018-04-02T19:56:14-06:00</lastmod>
+    <loc>/tags/constraints-mapping/</loc>
+    <lastmod>2018-04-12T17:03:46-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -433,14 +432,20 @@
   </url>
   
   <url>
-    <loc>/tags/qgis/</loc>
-    <lastmod>2018-07-30T15:53:44-06:00</lastmod>
+    <loc>/tags/books/</loc>
+    <lastmod>2018-04-06T09:34:47-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ralph/</loc>
-    <lastmod>2018-05-13T12:25:54-06:00</lastmod>
+    <loc>/docs/</loc>
+    <lastmod>2018-04-06T09:34:47-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/learning/</loc>
+    <lastmod>2018-04-06T09:34:47-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -451,43 +456,19 @@
   </url>
   
   <url>
-    <loc>/tags/recipes/</loc>
-    <lastmod>2018-05-01T16:38:34-06:00</lastmod>
+    <loc>/tags/4-hour-workweek/</loc>
+    <lastmod>2018-04-06T09:26:19-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/shapefile/</loc>
-    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
+    <loc>/tags/creativity-inc/</loc>
+    <lastmod>2018-04-06T09:26:19-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/shapefiles/</loc>
-    <lastmod>2018-07-30T15:53:44-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/slope/</loc>
-    <lastmod>2018-08-03T11:15:08-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/sous-vide/</loc>
-    <lastmod>2018-05-01T16:38:34-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/streamers/</loc>
-    <lastmod>2018-04-22T23:20:45-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
+    <loc>/tags/failure/</loc>
     <lastmod>2018-04-06T09:26:19-06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -499,8 +480,14 @@
   </url>
   
   <url>
-    <loc>/tags/water-act/</loc>
-    <lastmod>2018-05-29T11:49:16-06:00</lastmod>
+    <loc>/categories/coding/</loc>
+    <lastmod>2018-04-04T11:03:51-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/leafletjs/</loc>
+    <lastmod>2018-04-04T11:03:51-06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -511,14 +498,50 @@
   </url>
   
   <url>
-    <loc>/tags/wetland-assessment/</loc>
-    <lastmod>2018-08-03T11:15:08-06:00</lastmod>
+    <loc>/tags/geomatics/</loc>
+    <lastmod>2018-04-04T09:34:47-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/wms/</loc>
     <lastmod>2018-04-04T09:34:47-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/acims/</loc>
+    <lastmod>2018-04-03T07:07:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/alberta-plant-species/</loc>
+    <lastmod>2018-04-03T07:07:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/app-development/</loc>
+    <lastmod>2018-04-03T07:07:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ionic/</loc>
+    <lastmod>2018-04-02T23:07:49-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/about-me/</loc>
+    <lastmod>2018-04-02T20:00:06-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/photos/</loc>
+    <lastmod>2018-04-02T19:56:14-06:00</lastmod>
     <priority>0</priority>
   </url>
   

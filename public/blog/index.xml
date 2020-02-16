@@ -6,10 +6,28 @@
     <description>Recent content in Blogs on CamMakoJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Aug 2018 11:15:08 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2020 11:15:08 -0600</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blender Topography Maps of Alberta</title>
+      <link>/blog/2020/february/blender-topo-maps/</link>
+      <pubDate>Sun, 16 Feb 2020 11:15:08 -0600</pubDate>
+      
+      <guid>/blog/2020/february/blender-topo-maps/</guid>
+      <description>Acquiring Our Data I have seen some really cool applications of DEM models in blender. I have done a bit of messing around in blender previously, however it&amp;rsquo;s been awhile and I never really got very good at it. So we shall see how this goes, but i&amp;rsquo;m taking a crack at importing the province of Alberta&amp;rsquo;s 25m DEM from Altalis. It is a public dataset so if you want to snag it head here Altalis.</description>
+    </item>
+    
+    <item>
+      <title>Using a DEM and getting Simplified Contours</title>
+      <link>/blog/2019/september/simplifying-contours/</link>
+      <pubDate>Sat, 28 Sep 2019 11:15:08 -0600</pubDate>
+      
+      <guid>/blog/2019/september/simplifying-contours/</guid>
+      <description>When creating contours from high resolution DEM data you can often have a lot of distracting artifacts for small areas with slight deviations in topography. Depending on the final resolution of your end product and the intent of the maps you are creating it may be beneficial to reduce the resolution of the DEM so that your contours are simplified. This is a lossy process and the contours will lose detail but the cost is offset by readability, which can often be worth it.</description>
+    </item>
     
     <item>
       <title>Using a DEM to get Slope Directions</title>
@@ -104,7 +122,7 @@ Overall it wasn&amp;rsquo;t too much work and it definitely was good practice wi
 Athabasca river
 Colombia icefields
 Echo base 7wt
-I went on a trip to the Athabasca river with some friends.</description>
+I went on a trip to the Athabasca river with some friends. It was a gorgeous place to visit and we stayed in Jasper at a great AirBnB.</description>
     </item>
     
     <item>
@@ -198,7 +216,11 @@ Check out Libby it is an awesome front end for using your local library resource
 12th
 13th
 16th
-19th</description>
+19th
+21st
+22nd
+23rd
+24th</description>
     </item>
     
     <item>

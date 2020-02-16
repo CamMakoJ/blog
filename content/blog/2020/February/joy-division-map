@@ -1,0 +1,14 @@
++++
+title = "Joy Division Map of Alberta"
+description = "Making a map based on Alberta contours in the style of Joy Division's album cover Unknown Pleasures"
+weight = 20
+draft = false
+date = 2020-02-16T11:15:08-06:00
+tags = ["DEM", "Contours", "QGIS", "R"]
+categories = ["Environment", "Geomatics"]
++++
+
+
+A little map I made to see if I could. I used R and QGIS.
+
+![Alberta - Unknown Pleasures](/img/posts/joy-division-map/Alberta_JoyDiv.png)

@@ -16,4 +16,4 @@ This processing tool essentially takes the value from the DEM and then calculate
 ![Gradient Vectors from Surface](/img/posts/slope-direction-from-dem/surface-gradient.JPG#center)
 
 
-The values you use however will heavily depend on the resolution and size of your DEM as well as what your trying to visualize, such as landscape level flow or very intricate flow patterns. If you are looking for something more intricitate then it is likely you would benefit from some of the other SAGA tools that do channelization prediction.
+The values you use however will heavily depend on the resolution and size of your DEM as well as what your trying to visualize, such as landscape level flow or very intricate flow patterns. If you are looking for something more intricate then it is likely you would benefit from some of the other SAGA tools that do channelization prediction.

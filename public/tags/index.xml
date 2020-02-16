@@ -6,35 +6,188 @@
     <description>Recent content in Tags on CamMakoJ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Apr 2018 09:26:19 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2020 11:15:08 -0600</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>4 Hour Workweek</title>
-      <link>/tags/4-hour-workweek/</link>
-      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
+      <title>Blender</title>
+      <link>/tags/blender/</link>
+      <pubDate>Sun, 16 Feb 2020 11:15:08 -0600</pubDate>
       
-      <guid>/tags/4-hour-workweek/</guid>
+      <guid>/tags/blender/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Acims</title>
-      <link>/tags/acims/</link>
-      <pubDate>Tue, 03 Apr 2018 07:07:37 -0600</pubDate>
+      <title>Contours</title>
+      <link>/tags/contours/</link>
+      <pubDate>Sun, 16 Feb 2020 11:15:08 -0600</pubDate>
       
-      <guid>/tags/acims/</guid>
+      <guid>/tags/contours/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Aer</title>
+      <title>DEM</title>
+      <link>/tags/dem/</link>
+      <pubDate>Sun, 16 Feb 2020 11:15:08 -0600</pubDate>
+      
+      <guid>/tags/dem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QGIS</title>
+      <link>/tags/qgis/</link>
+      <pubDate>Sun, 16 Feb 2020 11:15:08 -0600</pubDate>
+      
+      <guid>/tags/qgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simplified</title>
+      <link>/tags/simplified/</link>
+      <pubDate>Sat, 28 Sep 2019 11:15:08 -0600</pubDate>
+      
+      <guid>/tags/simplified/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Catchment Areas</title>
+      <link>/tags/catchment-areas/</link>
+      <pubDate>Fri, 03 Aug 2018 11:15:08 -0600</pubDate>
+      
+      <guid>/tags/catchment-areas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slope</title>
+      <link>/tags/slope/</link>
+      <pubDate>Fri, 03 Aug 2018 11:15:08 -0600</pubDate>
+      
+      <guid>/tags/slope/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wetland Assessment</title>
+      <link>/tags/wetland-assessment/</link>
+      <pubDate>Fri, 03 Aug 2018 11:15:08 -0600</pubDate>
+      
+      <guid>/tags/wetland-assessment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPS</title>
+      <link>/tags/gps/</link>
+      <pubDate>Mon, 30 Jul 2018 15:53:44 -0600</pubDate>
+      
+      <guid>/tags/gps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPX</title>
+      <link>/tags/gpx/</link>
+      <pubDate>Mon, 30 Jul 2018 15:53:44 -0600</pubDate>
+      
+      <guid>/tags/gpx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shapefiles</title>
+      <link>/tags/shapefiles/</link>
+      <pubDate>Mon, 30 Jul 2018 15:53:44 -0600</pubDate>
+      
+      <guid>/tags/shapefiles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Avenza</title>
+      <link>/tags/avenza/</link>
+      <pubDate>Wed, 04 Jul 2018 16:05:45 -0600</pubDate>
+      
+      <guid>/tags/avenza/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Field Work</title>
+      <link>/tags/field-work/</link>
+      <pubDate>Wed, 04 Jul 2018 16:05:45 -0600</pubDate>
+      
+      <guid>/tags/field-work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atlas</title>
+      <link>/tags/atlas/</link>
+      <pubDate>Tue, 05 Jun 2018 10:44:45 -0600</pubDate>
+      
+      <guid>/tags/atlas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Expressions</title>
+      <link>/tags/expressions/</link>
+      <pubDate>Tue, 05 Jun 2018 10:44:45 -0600</pubDate>
+      
+      <guid>/tags/expressions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AER</title>
       <link>/tags/aer/</link>
       <pubDate>Tue, 29 May 2018 11:49:16 -0600</pubDate>
       
       <guid>/tags/aer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shapefile</title>
+      <link>/tags/shapefile/</link>
+      <pubDate>Tue, 29 May 2018 11:49:16 -0600</pubDate>
+      
+      <guid>/tags/shapefile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Water Act</title>
+      <link>/tags/water-act/</link>
+      <pubDate>Tue, 29 May 2018 11:49:16 -0600</pubDate>
+      
+      <guid>/tags/water-act/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dogs</title>
+      <link>/tags/dogs/</link>
+      <pubDate>Sun, 13 May 2018 12:25:54 -0600</pubDate>
+      
+      <guid>/tags/dogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ralph</title>
+      <link>/tags/ralph/</link>
+      <pubDate>Sun, 13 May 2018 12:25:54 -0600</pubDate>
+      
+      <guid>/tags/ralph/</guid>
       <description></description>
     </item>
     
@@ -44,6 +197,294 @@
       <pubDate>Mon, 07 May 2018 14:22:37 -0600</pubDate>
       
       <guid>/tags/alberta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Camping</title>
+      <link>/tags/camping/</link>
+      <pubDate>Mon, 07 May 2018 14:22:37 -0600</pubDate>
+      
+      <guid>/tags/camping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fishing</title>
+      <link>/tags/fishing/</link>
+      <pubDate>Mon, 07 May 2018 14:22:37 -0600</pubDate>
+      
+      <guid>/tags/fishing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cooking</title>
+      <link>/tags/cooking/</link>
+      <pubDate>Tue, 01 May 2018 16:38:34 -0600</pubDate>
+      
+      <guid>/tags/cooking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gochujang</title>
+      <link>/tags/gochujang/</link>
+      <pubDate>Tue, 01 May 2018 16:38:34 -0600</pubDate>
+      
+      <guid>/tags/gochujang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recipes</title>
+      <link>/tags/recipes/</link>
+      <pubDate>Tue, 01 May 2018 16:38:34 -0600</pubDate>
+      
+      <guid>/tags/recipes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sous-vide</title>
+      <link>/tags/sous-vide/</link>
+      <pubDate>Tue, 01 May 2018 16:38:34 -0600</pubDate>
+      
+      <guid>/tags/sous-vide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GIS</title>
+      <link>/tags/gis/</link>
+      <pubDate>Tue, 01 May 2018 13:42:23 -0600</pubDate>
+      
+      <guid>/tags/gis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GeoServer</title>
+      <link>/tags/geoserver/</link>
+      <pubDate>Tue, 01 May 2018 13:42:23 -0600</pubDate>
+      
+      <guid>/tags/geoserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Data</title>
+      <link>/tags/large-data/</link>
+      <pubDate>Tue, 01 May 2018 13:42:23 -0600</pubDate>
+      
+      <guid>/tags/large-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>/tags/open-source/</link>
+      <pubDate>Tue, 01 May 2018 13:42:23 -0600</pubDate>
+      
+      <guid>/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Athabasca</title>
+      <link>/tags/athabasca/</link>
+      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
+      
+      <guid>/tags/athabasca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Columbia Ice Fields</title>
+      <link>/tags/columbia-ice-fields/</link>
+      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
+      
+      <guid>/tags/columbia-ice-fields/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fly Fishing</title>
+      <link>/tags/fly-fishing/</link>
+      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
+      
+      <guid>/tags/fly-fishing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HWY 93</title>
+      <link>/tags/hwy-93/</link>
+      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
+      
+      <guid>/tags/hwy-93/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Highway 93</title>
+      <link>/tags/highway-93/</link>
+      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
+      
+      <guid>/tags/highway-93/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jasper</title>
+      <link>/tags/jasper/</link>
+      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
+      
+      <guid>/tags/jasper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Streamers</title>
+      <link>/tags/streamers/</link>
+      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
+      
+      <guid>/tags/streamers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GrassGIS</title>
+      <link>/tags/grassgis/</link>
+      <pubDate>Fri, 13 Apr 2018 15:02:33 -0600</pubDate>
+      
+      <guid>/tags/grassgis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Constraints Mapping</title>
+      <link>/tags/constraints-mapping/</link>
+      <pubDate>Thu, 12 Apr 2018 17:03:46 -0600</pubDate>
+      
+      <guid>/tags/constraints-mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Process Modelling</title>
+      <link>/tags/process-modelling/</link>
+      <pubDate>Thu, 12 Apr 2018 17:03:46 -0600</pubDate>
+      
+      <guid>/tags/process-modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Books</title>
+      <link>/tags/books/</link>
+      <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/tags/books/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>/tags/learning/</link>
+      <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reading</title>
+      <link>/tags/reading/</link>
+      <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/tags/reading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>4-Hour Workweek</title>
+      <link>/tags/4-hour-workweek/</link>
+      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
+      
+      <guid>/tags/4-hour-workweek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creativity Inc</title>
+      <link>/tags/creativity-inc/</link>
+      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
+      
+      <guid>/tags/creativity-inc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Failure</title>
+      <link>/tags/failure/</link>
+      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
+      
+      <guid>/tags/failure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Talent Code</title>
+      <link>/tags/the-talent-code/</link>
+      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
+      
+      <guid>/tags/the-talent-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LeafletJS</title>
+      <link>/tags/leafletjs/</link>
+      <pubDate>Wed, 04 Apr 2018 11:03:51 -0600</pubDate>
+      
+      <guid>/tags/leafletjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Maps</title>
+      <link>/tags/web-maps/</link>
+      <pubDate>Wed, 04 Apr 2018 11:03:51 -0600</pubDate>
+      
+      <guid>/tags/web-maps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geomatics</title>
+      <link>/tags/geomatics/</link>
+      <pubDate>Wed, 04 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/tags/geomatics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WMS</title>
+      <link>/tags/wms/</link>
+      <pubDate>Wed, 04 Apr 2018 09:34:47 -0600</pubDate>
+      
+      <guid>/tags/wms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACIMS</title>
+      <link>/tags/acims/</link>
+      <pubDate>Tue, 03 Apr 2018 07:07:37 -0600</pubDate>
+      
+      <guid>/tags/acims/</guid>
       <description></description>
     </item>
     
@@ -66,250 +507,7 @@
     </item>
     
     <item>
-      <title>Athabasca</title>
-      <link>/tags/athabasca/</link>
-      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
-      
-      <guid>/tags/athabasca/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Atlas</title>
-      <link>/tags/atlas/</link>
-      <pubDate>Tue, 05 Jun 2018 10:44:45 -0600</pubDate>
-      
-      <guid>/tags/atlas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Avenza</title>
-      <link>/tags/avenza/</link>
-      <pubDate>Wed, 04 Jul 2018 16:05:45 -0600</pubDate>
-      
-      <guid>/tags/avenza/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Books</title>
-      <link>/tags/books/</link>
-      <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
-      
-      <guid>/tags/books/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Camping</title>
-      <link>/tags/camping/</link>
-      <pubDate>Mon, 07 May 2018 14:22:37 -0600</pubDate>
-      
-      <guid>/tags/camping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Catchment Areas</title>
-      <link>/tags/catchment-areas/</link>
-      <pubDate>Fri, 03 Aug 2018 11:15:08 -0600</pubDate>
-      
-      <guid>/tags/catchment-areas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Columbia Ice Fields</title>
-      <link>/tags/columbia-ice-fields/</link>
-      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
-      
-      <guid>/tags/columbia-ice-fields/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Constraints Mapping</title>
-      <link>/tags/constraints-mapping/</link>
-      <pubDate>Thu, 12 Apr 2018 17:03:46 -0600</pubDate>
-      
-      <guid>/tags/constraints-mapping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contours</title>
-      <link>/tags/contours/</link>
-      <pubDate>Fri, 13 Apr 2018 15:02:33 -0600</pubDate>
-      
-      <guid>/tags/contours/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cooking</title>
-      <link>/tags/cooking/</link>
-      <pubDate>Tue, 01 May 2018 16:38:34 -0600</pubDate>
-      
-      <guid>/tags/cooking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Creativity Inc</title>
-      <link>/tags/creativity-inc/</link>
-      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
-      
-      <guid>/tags/creativity-inc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dem</title>
-      <link>/tags/dem/</link>
-      <pubDate>Fri, 03 Aug 2018 11:15:08 -0600</pubDate>
-      
-      <guid>/tags/dem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dogs</title>
-      <link>/tags/dogs/</link>
-      <pubDate>Sun, 13 May 2018 12:25:54 -0600</pubDate>
-      
-      <guid>/tags/dogs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Expressions</title>
-      <link>/tags/expressions/</link>
-      <pubDate>Tue, 05 Jun 2018 10:44:45 -0600</pubDate>
-      
-      <guid>/tags/expressions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Failure</title>
-      <link>/tags/failure/</link>
-      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
-      
-      <guid>/tags/failure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Field Work</title>
-      <link>/tags/field-work/</link>
-      <pubDate>Wed, 04 Jul 2018 16:05:45 -0600</pubDate>
-      
-      <guid>/tags/field-work/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fishing</title>
-      <link>/tags/fishing/</link>
-      <pubDate>Mon, 07 May 2018 14:22:37 -0600</pubDate>
-      
-      <guid>/tags/fishing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fly Fishing</title>
-      <link>/tags/fly-fishing/</link>
-      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
-      
-      <guid>/tags/fly-fishing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Geomatics</title>
-      <link>/tags/geomatics/</link>
-      <pubDate>Wed, 04 Apr 2018 09:34:47 -0600</pubDate>
-      
-      <guid>/tags/geomatics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Geoserver</title>
-      <link>/tags/geoserver/</link>
-      <pubDate>Tue, 01 May 2018 13:42:23 -0600</pubDate>
-      
-      <guid>/tags/geoserver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gis</title>
-      <link>/tags/gis/</link>
-      <pubDate>Tue, 01 May 2018 13:42:23 -0600</pubDate>
-      
-      <guid>/tags/gis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gochujang</title>
-      <link>/tags/gochujang/</link>
-      <pubDate>Tue, 01 May 2018 16:38:34 -0600</pubDate>
-      
-      <guid>/tags/gochujang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gps</title>
-      <link>/tags/gps/</link>
-      <pubDate>Mon, 30 Jul 2018 15:53:44 -0600</pubDate>
-      
-      <guid>/tags/gps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gpx</title>
-      <link>/tags/gpx/</link>
-      <pubDate>Mon, 30 Jul 2018 15:53:44 -0600</pubDate>
-      
-      <guid>/tags/gpx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Grassgis</title>
-      <link>/tags/grassgis/</link>
-      <pubDate>Fri, 13 Apr 2018 15:02:33 -0600</pubDate>
-      
-      <guid>/tags/grassgis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Highway 93</title>
-      <link>/tags/highway-93/</link>
-      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
-      
-      <guid>/tags/highway-93/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hwy 93</title>
-      <link>/tags/hwy-93/</link>
-      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
-      
-      <guid>/tags/hwy-93/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ionic</title>
+      <title>ionic</title>
       <link>/tags/ionic/</link>
       <pubDate>Mon, 02 Apr 2018 23:07:49 -0600</pubDate>
       
@@ -318,191 +516,11 @@
     </item>
     
     <item>
-      <title>Jasper</title>
-      <link>/tags/jasper/</link>
-      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
-      
-      <guid>/tags/jasper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Large Data</title>
-      <link>/tags/large-data/</link>
-      <pubDate>Tue, 01 May 2018 13:42:23 -0600</pubDate>
-      
-      <guid>/tags/large-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Leafletjs</title>
-      <link>/tags/leafletjs/</link>
-      <pubDate>Wed, 04 Apr 2018 11:03:51 -0600</pubDate>
-      
-      <guid>/tags/leafletjs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning</title>
-      <link>/tags/learning/</link>
-      <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
-      
-      <guid>/tags/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Source</title>
-      <link>/tags/open-source/</link>
-      <pubDate>Tue, 01 May 2018 13:42:23 -0600</pubDate>
-      
-      <guid>/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photos</title>
+      <title>photos</title>
       <link>/tags/photos/</link>
       <pubDate>Mon, 02 Apr 2018 19:56:14 -0600</pubDate>
       
       <guid>/tags/photos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Process Modelling</title>
-      <link>/tags/process-modelling/</link>
-      <pubDate>Thu, 12 Apr 2018 17:03:46 -0600</pubDate>
-      
-      <guid>/tags/process-modelling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Qgis</title>
-      <link>/tags/qgis/</link>
-      <pubDate>Mon, 30 Jul 2018 15:53:44 -0600</pubDate>
-      
-      <guid>/tags/qgis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ralph</title>
-      <link>/tags/ralph/</link>
-      <pubDate>Sun, 13 May 2018 12:25:54 -0600</pubDate>
-      
-      <guid>/tags/ralph/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reading</title>
-      <link>/tags/reading/</link>
-      <pubDate>Fri, 06 Apr 2018 09:34:47 -0600</pubDate>
-      
-      <guid>/tags/reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recipes</title>
-      <link>/tags/recipes/</link>
-      <pubDate>Tue, 01 May 2018 16:38:34 -0600</pubDate>
-      
-      <guid>/tags/recipes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shapefile</title>
-      <link>/tags/shapefile/</link>
-      <pubDate>Tue, 29 May 2018 11:49:16 -0600</pubDate>
-      
-      <guid>/tags/shapefile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shapefiles</title>
-      <link>/tags/shapefiles/</link>
-      <pubDate>Mon, 30 Jul 2018 15:53:44 -0600</pubDate>
-      
-      <guid>/tags/shapefiles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Slope</title>
-      <link>/tags/slope/</link>
-      <pubDate>Fri, 03 Aug 2018 11:15:08 -0600</pubDate>
-      
-      <guid>/tags/slope/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sous Vide</title>
-      <link>/tags/sous-vide/</link>
-      <pubDate>Tue, 01 May 2018 16:38:34 -0600</pubDate>
-      
-      <guid>/tags/sous-vide/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Streamers</title>
-      <link>/tags/streamers/</link>
-      <pubDate>Sun, 22 Apr 2018 23:20:45 -0600</pubDate>
-      
-      <guid>/tags/streamers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Talent Code</title>
-      <link>/tags/the-talent-code/</link>
-      <pubDate>Fri, 06 Apr 2018 09:26:19 -0600</pubDate>
-      
-      <guid>/tags/the-talent-code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Water Act</title>
-      <link>/tags/water-act/</link>
-      <pubDate>Tue, 29 May 2018 11:49:16 -0600</pubDate>
-      
-      <guid>/tags/water-act/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Maps</title>
-      <link>/tags/web-maps/</link>
-      <pubDate>Wed, 04 Apr 2018 11:03:51 -0600</pubDate>
-      
-      <guid>/tags/web-maps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wetland Assessment</title>
-      <link>/tags/wetland-assessment/</link>
-      <pubDate>Fri, 03 Aug 2018 11:15:08 -0600</pubDate>
-      
-      <guid>/tags/wetland-assessment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wms</title>
-      <link>/tags/wms/</link>
-      <pubDate>Wed, 04 Apr 2018 09:34:47 -0600</pubDate>
-      
-      <guid>/tags/wms/</guid>
       <description></description>
     </item>
     

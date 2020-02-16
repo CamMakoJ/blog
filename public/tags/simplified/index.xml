@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simplified on CamMakoJ</title>
+    <link>/tags/simplified/</link>
+    <description>Recent content in Simplified on CamMakoJ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Sep 2019 11:15:08 -0600</lastBuildDate>
+    
+	<atom:link href="/tags/simplified/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using a DEM and getting Simplified Contours</title>
+      <link>/blog/2019/september/simplifying-contours/</link>
+      <pubDate>Sat, 28 Sep 2019 11:15:08 -0600</pubDate>
+      
+      <guid>/blog/2019/september/simplifying-contours/</guid>
+      <description>When creating contours from high resolution DEM data you can often have a lot of distracting artifacts for small areas with slight deviations in topography. Depending on the final resolution of your end product and the intent of the maps you are creating it may be beneficial to reduce the resolution of the DEM so that your contours are simplified. This is a lossy process and the contours will lose detail but the cost is offset by readability, which can often be worth it.</description>
+    </item>
+    
+  </channel>
+</rss>
